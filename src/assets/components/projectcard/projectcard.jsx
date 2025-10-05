@@ -18,7 +18,8 @@ export default function ProjectCard({ source, alt, image, title, text, tags }) {
                 </div>
             </button>
             {showModal && 
-                <button className='modal' onClick={()=>setShowModal(false)}>
+                <div className='modal'>
+                    <button className='modal__button' onClick={()=>setShowModal(false)}>X</button>
                     <img className='modal__image' src={image} alt={alt} />
                     <div className='modal__content'>
                         <h2>{title}</h2>
@@ -27,7 +28,7 @@ export default function ProjectCard({ source, alt, image, title, text, tags }) {
                             <span key={tag}>{tag}</span>
                         ))}
                     </div>
-                </button>
+                </div>
             }
        </>
     )

@@ -25,5 +25,9 @@
             background: white;
             color: #cf404d;
         }
+
+        &:active{
+            scale: 1.02;
+        }
     }
 }

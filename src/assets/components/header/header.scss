@@ -8,8 +8,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 100;
-    position: relative;
+    z-index: 50;
 
     @media screen and (min-width: 768px){
         position: fixed;
@@ -84,6 +83,12 @@
             text-decoration: none;
             text-transform: uppercase;
             cursor: pointer;
+            width: fit-content;
+            margin: 0;
+
+            @media screen and (min-width: 768px) {
+                margin: auto;
+            }
 
             &:hover{
                 color: #cf404d;
