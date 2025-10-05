@@ -13,9 +13,9 @@ export default function Gallery() {
                 {projects.map((project) => (
                     <ProjectCard 
                         key={project.title}
-                        source={project.image}
+                        source={project.images[0]}
                         alt={project.alt}
-                        image={project.image}
+                        image={project.images}
                         title={project.title}
                         text={project.description}
                         tags={project.tags}
