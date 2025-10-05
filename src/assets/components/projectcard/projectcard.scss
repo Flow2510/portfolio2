@@ -1,0 +1,83 @@
+.projectcard{
+    width: 100%;
+    aspect-ratio: 1;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    &:hover &__overlay {
+        transform: translateX(0);
+    }
+
+    &__image{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__overlay{
+        position: absolute;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #2d3e4fb4;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        transition: all ease-in-out 0.7s;
+        transform: translateX(-100%);
+        padding: 0.5rem;
+        color: white;
+
+        @media screen and (min-width:768px) {
+            display: flex;
+        }
+
+        &-tags{
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.7rem;
+        }
+    }
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    padding: 0;
+
+    &__image{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+
+        @media screen and (min-width:768px) {
+            max-width: 800px;
+        }
+    }
+
+    &__content{
+
+        @media screen and (min-width:768px) {
+            max-width: 600px;
+        }
+    }
+}

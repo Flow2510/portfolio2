@@ -1,0 +1,27 @@
+import './gallery.scss';
+import projects from '../../../data/projects.json'
+import ProjectCard from '../projectcard/projectcard';
+
+export default function Gallery() {
+
+    return(
+        <section className='gallery'>
+            <div className='gallery__content'>
+                <h3 className='gallery__content-title'>Mes Projets</h3>
+            </div>
+            <div className='gallery__wrapper'>
+                {projects.map((project) => (
+                    <ProjectCard 
+                        key={project.title}
+                        source={project.image}
+                        alt={project.alt}
+                        image={project.image}
+                        title={project.title}
+                        text={project.description}
+                        tags={project.tags}
+                    />
+                ))}
+            </div>
+        </section>
+    )
+}

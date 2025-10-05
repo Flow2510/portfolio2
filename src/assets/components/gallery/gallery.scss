@@ -1,0 +1,26 @@
+.gallery{
+    padding: 2rem 1rem;
+    text-align: center;
+
+    &__content{
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #2d3e4f;
+        }
+    }
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        max-width: 840px;
+        margin: 1rem auto 0;
+
+        @media screen and (min-width:768px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}

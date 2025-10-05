@@ -1,0 +1,32 @@
+.info{
+    padding: 2rem 1rem;
+    text-align: center;
+
+    &__content{
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #2d3e4f;
+        }
+
+        &-subtitle{
+            color: rgba(80, 80, 80, 0.74);
+            font-size: 1.2rem;
+        }
+    }
+
+    &__wrapper{
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    &__cards{
+        
+        @media screen and (min-width:768px) {
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
+}

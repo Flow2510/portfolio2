@@ -1,0 +1,74 @@
+[
+    {
+        "id": "kasa",
+        "image": "../../public/images/avenue-815297_640.jpg",
+        "imageDesktop": "/images/kasa_desktop.png",
+        "imageMobile": "/images/kasa_mobile.png",
+        "alt": "image alt",
+        "title": "Kasa",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    },
+    {
+        "id": "argentbank",
+        "image": "../../public/images/city-4991094_640.jpg",
+        "imageDesktop": "/public/images/argentbank_desktop.png",
+        "imageMobile": "/public/images/argentbank_mobile.png",
+        "alt": "image alt",
+        "title": "ArgentBank",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    },
+    {
+        "id": "spacetourism",
+        "image": "../../public/images/railway-7860168_640.jpg",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154447.png",
+        "imageMobile": "/public/images/spacetourism_mobile.png",
+        "alt": "image alt",
+        "title": "Space Tourism",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    },
+    {
+        "id": "724events",
+        "image": "../../public/images/singapore-1990959_640.jpg",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154614.png",
+        "imageMobile": "",
+        "alt": "image alt",
+        "title": "724 events",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    },
+    {
+        "id": "sunnyside",
+        "image": "../../public/images/trees-8563877_640.jpg",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154715.png",
+        "imageMobile": "/images/sunnyside_mobile.png",
+        "alt": "image alt",
+        "title": "Sunnyside Agency",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    },
+    {
+        "id": "weblog",
+        "image": "../../public/images/workspace-1280538_1920.jpg",
+        "imageDesktop": "/images/Capture d'écran 2025-08-26 005925.png",
+        "imageMobile": "",
+        "alt": "image alt",
+        "title": "WeBlog",
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit delectus est iste dolor voluptates, neque reprehenderit excepturi maxime optio, eaque aperiam recusandae natus doloremque accusantium itaque enim odit dolorem!"
+    }
+]

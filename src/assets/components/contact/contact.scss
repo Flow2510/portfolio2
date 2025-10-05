@@ -1,0 +1,22 @@
+.contact{
+    padding: 2rem 1rem;
+    background-color: #fafafa;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+
+    &__content{
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #2d3e4f;
+        }
+
+        &-subtitle{
+            color: rgba(115, 115, 115, .74);
+            font-size: 1.2rem;
+        }
+    }
+}

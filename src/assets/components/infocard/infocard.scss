@@ -1,0 +1,30 @@
+.infocard{
+    margin-top: 1rem;
+    flex: 1;
+    
+    &__icon{
+        padding: 1rem 0;
+        zoom: 2;
+    }
+
+    &__content{
+        color: #313131;
+
+        &-text{
+            padding: 1rem 0;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        &-title{
+            font-size: 1.2rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        &-link{
+            color: #cf404d;
+            text-decoration: none;
+        }
+    }
+}

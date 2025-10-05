@@ -1,0 +1,95 @@
+.hero{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    position: relative;
+
+    &__logo{
+        max-width: 250px;
+        filter: brightness(100);
+    }
+
+    &::before{
+        height: 100%;
+        width: 100%;
+        display: block;
+        content: "";
+        position: absolute;
+        background: url(../../../../public/images/workspace-1280538_1920.jpg);
+        background-position: center 10%;
+        background-size: cover;
+        z-index: -10;
+    }
+
+    &::after{
+        height: 100%;
+        width: 100%;
+        display: block;
+        content: "";
+        position: absolute;
+        background: rgba(0, 0, 0, 0.2);
+        z-index: -9;
+    }
+
+    @media screen and (min-width:768px) {
+            height: 100vh;
+        }
+
+    &__content{
+
+        &-title{
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 1.1rem;
+        }
+    }
+
+    &__link-wrapper{
+        padding: 1.5rem 0 0;
+    }
+
+    &__link{
+
+        &-1{
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            padding: 0.7rem 1.2rem;
+            margin: 0 0.25rem;
+            border-radius: 0.2rem;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #cf404d;  
+                border: 2px solid #cf404d;
+                transition: all ease-in-out 0.4s;
+            }
+        }
+
+        &-2{
+            border: 2px solid #cf404d;
+            background-color: #cf404d;
+            letter-spacing: 1px;
+            color: white;
+            padding: 0.7rem 1.2rem;
+            margin: 1rem 0.25rem;
+            border-radius: 0.2rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: transparent;  
+                transition: all ease-in-out 0.4s;
+            }
+        }
+    }
+}

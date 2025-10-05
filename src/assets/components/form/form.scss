@@ -1,0 +1,71 @@
+.form{
+    width: 100%;
+    background-color: #fafafa;
+    max-width: 500px;
+    margin: auto;
+
+    &__input-wrapper{
+        
+        @media screen and (min-width:768px) {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    &__input{
+        width: 100%;
+        padding: 0.5rem 0.8rem;
+        border-radius: 0.2rem;
+        border: 1px solid #bebebe;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        outline: none;
+    }
+
+    &__textarea{
+        width: 100%;
+        padding: 0.5rem 0.8rem;
+        min-height: 110px;
+        border-radius: 0.2rem;
+        border: 1px solid #bebebe;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        outline: none;
+
+        &::placeholder{
+            font-family: sans-serif;
+        }
+
+
+    }
+
+    &__button{
+        color: #fff;
+        background-color: #cf404d;
+        border-radius: 4px;
+        border: none;
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 0.5rem;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+
+        &:hover{
+            background: #49647b;
+        }
+    }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* évite les retours à la ligne */
+  border: 0;
+}
