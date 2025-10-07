@@ -10,3 +10,22 @@ html{
       font-size: 20px;
     }
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}

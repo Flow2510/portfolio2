@@ -1,15 +1,18 @@
 import { useParams } from "react-router-dom"
 import projects from '../data/projects.json'
 import Slider from '../assets/components/slider/slider'
-import Header from "../assets/components/header/header";
+import HeaderProject from '../assets/components/headerproject/headerproject'
+import CallToAction from '../assets/components/calltoaction/calltoaction'
+import './project.scss'
+import Contact from "../assets/components/contact/contact"
 
 export default function Project() {
     const { projectId } = useParams();
-    const project = projects.find(p => p.id === projectId) 
+    const project = projects.find(p => p.id === projectId)
 
     return(
         <>
-            <Header />
+            <HeaderProject />
             <main>
                 <div className='project'>
                     <Slider 
@@ -25,6 +28,13 @@ export default function Project() {
                         ))}
                     </div>
                 </div>
+                <CallToAction
+                    title="Téléchargez mon CV"
+                    buttonText="Télécharger"
+                    to="/cv.pdf"
+                    isFile
+                />
+                <Contact />
             </main>
         </>
     )
