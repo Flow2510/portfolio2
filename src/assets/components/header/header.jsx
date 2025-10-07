@@ -1,4 +1,5 @@
-import { Link } from 'react-scroll';
+import { Link} from 'react-scroll';
+import { Link as RouterLink} from 'react-router-dom';
 import './header.scss';
 import { useState } from 'react';
 
@@ -7,7 +8,7 @@ export default function Header(){
 
     return(
         <header className='header'>
-            <Link to='hero' smooth={true} duration={700}><img className='header__logo' src="/public/images/logo.png" alt="" /></Link>
+            <RouterLink to='/'><img className='header__logo' src="/public/images/logo.png" alt="" /></RouterLink>
             <nav className={`${isOpen ? "header__nav--active" : "header__nav" }`}>
                 <Link to="hero" smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</Link>
                 <Link to="info" smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</Link>
