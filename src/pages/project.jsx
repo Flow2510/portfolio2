@@ -5,6 +5,7 @@ import HeaderProject from '../assets/components/headerproject/headerproject'
 import CallToAction from '../assets/components/calltoaction/calltoaction'
 import './project.scss'
 import Contact from "../assets/components/contact/contact"
+import Gallery from "../assets/components/gallery/gallery"
 
 export default function Project() {
     const { projectId } = useParams();
@@ -30,6 +31,14 @@ export default function Project() {
                         <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
                     </div>
                 </div>
+                <CallToAction
+                    to="contact"
+                    title="Discutons d’une opportunité"
+                    buttonText="Me Contacter"
+                />
+                <Gallery 
+                    
+                />
                 <CallToAction
                     title="Téléchargez mon CV"
                     buttonText="Télécharger"

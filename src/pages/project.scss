@@ -1,11 +1,11 @@
 .project{
     text-align: left;
     padding: 1rem 0;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 2.7rem auto 0;
 
     @media screen and (min-width:768px) {
-        margin: 1.5rem auto;
+        margin: 0 auto;
     }
 
     &__image-wrapper{
@@ -16,21 +16,14 @@
         width: 100%;
     }
 
-    &__image-tablet{
-        width: 60%;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
     &__image-mobile{
             position: absolute;
             bottom: 0;
             right: 0;
-            width: 90px;
+            width: 110px;
 
         @media screen and (min-width:768px) {
-            width: 200px;
+            width: 240px;
         } 
     }
 

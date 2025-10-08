@@ -3,12 +3,12 @@ import projects from '../../../data/projects.json'
 import ProjectCard from '../projectcard/projectcard';
 import { Link } from 'react-router-dom';
 
-export default function Gallery() {
+export default function Gallery({title}) {
 
     return(
         <section className='gallery'>
             <div className='gallery__content'>
-                <h3 className='gallery__content-title'>Mes Projets</h3>
+                <h3 className='gallery__content-title'>{title}</h3>
             </div>
             <div className='gallery__wrapper'>
                 {projects.map((project) => (

@@ -62,7 +62,7 @@
     },
     {
         "id": "REST Countries API",
-        "image": "/public/images/restcountry.webp",
+        "image": "/public/images/restcountries.png",
         "imageDesktop": "/public/images/restcountries-desktop.png",
         "imageMobile": "/public/images/restcountries-mobile.png",
         "alt": "image alt",

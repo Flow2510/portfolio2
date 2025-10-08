@@ -25,7 +25,9 @@ export default function Home() {
                     to="/cv.pdf"
                     isFile
                 />
-                <Gallery />
+                <Gallery 
+                    title="Mes Projets"
+                />
                 <Contact />
             </main>
         </>

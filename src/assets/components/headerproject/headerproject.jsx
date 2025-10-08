@@ -11,6 +11,7 @@ export default function Header(){
             <nav className={`${isOpen ? "header__nav--active" : "header__nav" }`}>
                 <RouterLink to="/" className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
                 <Link to='contact' smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</Link>
+                <Link to='gallery' smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</Link>
                 <div className='header__social'>
                     <a href='https://github.com/Flow2510' target='__blank' className='header__social-link'><i className="fa-brands fa-github"></i></a>
                     <a href='https://fr.linkedin.com/' className='header__social-link' target='__blank'><i className="fa-brands fa-square-linkedin"></i></a>
