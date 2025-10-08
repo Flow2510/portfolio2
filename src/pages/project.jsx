@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import projects from '../data/projects.json'
 import Slider from '../assets/components/slider/slider'
 import HeaderProject from '../assets/components/headerproject/headerproject'
@@ -15,17 +15,19 @@ export default function Project() {
             <HeaderProject />
             <main>
                 <div className='project'>
-                    <Slider 
-                        image={project.images}
-                    />
+                    <div className="project__image-wrapper">
+                        <img className="project__image-desktop" src={project.imageDesktop} alt="" />
+                        <img className="project__image-mobile" src={project.imageMobile} alt="" />
+                    </div>
                     <div className='project__content'>
                         <h2 className='project__content-title'>{project.title}</h2>
-                        <p className='project__content-text'>{project.description}</p>
-                    </div>
-                    <div className='project__tag-wrapper'>
-                        {project.tags.map((tag) => (
-                            <span className='project__content-tag' key={tag}>{tag}</span>
-                        ))}
+                        <p className='project__content-text' style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
+                        <div className='project__tag-wrapper'>
+                            {project.tags.map((tag) => (
+                                <span className='project__tag' key={tag}>{tag}</span>
+                            ))}
+                        </div>
+                        <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
                     </div>
                 </div>
                 <CallToAction

@@ -1,16 +1,51 @@
 .project{
-    text-align: center;
+    text-align: left;
     padding: 1rem 0;
-    max-width: 800px;
+    max-width: 900px;
     margin: 2.7rem auto 0;
+
+    @media screen and (min-width:768px) {
+        margin: 1.5rem auto;
+    }
+
+    &__image-wrapper{
+        position: relative;
+    }
+
+    &__image-desktop{
+        width: 100%;
+    }
+
+    &__image-tablet{
+        width: 60%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__image-mobile{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 90px;
+
+        @media screen and (min-width:768px) {
+            width: 200px;
+        } 
+    }
 
     &__content{
         padding: 0 1rem;
+        max-width: 800px;
+        margin: auto;
+
         &-title{
             text-transform: uppercase;
             font-weight: 400;
             font-size: 2rem;
             color: #2d3e4f;
+            text-align: center;
+            margin-top: 1rem;
         }
 
         &-text{
@@ -20,10 +55,17 @@
         }
     }
 
+    &__link{
+        text-decoration: none;
+        color: #cf404d;
+    }
+
     &__tag-wrapper{
         display: flex;
         gap: 1rem;
-        justify-content: center;
+        text-wrap: nowrap;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
     }
 
     &__tag{

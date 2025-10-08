@@ -7,10 +7,9 @@ export default function CallToAction({ buttonText, title, to, isFile }) {
             <p className="action__text">{title}</p>
             {isFile ? (
                 <a
-                    href={to}
-                    download
+                    href="/public/CV.pdf"
+                    download="CV_florian_sendra"
                     className="action__button"
-                    target="_blank"
                     rel="noopener noreferrer"
                 >
                     {buttonText}

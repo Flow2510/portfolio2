@@ -8,9 +8,9 @@ export default function ProjectCard({ source, alt, title, tags }) {
                 <div className='projectcard__overlay'>
                     <h2>{title}</h2>
                     <div className='projectcard__overlay-tags'>
-                        {tags.map((tag) => (
-                            <span key={tag}>{tag}</span>
-                        ))}
+                        <span key={tags[0]}>{tags[0]}</span>
+                        <span key={tags[1]}>{tags[1]}</span>
+                        <span key={tags[2]}>{tags[2]}</span>
                     </div>
                 </div>
             </button>
