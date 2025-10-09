@@ -35,7 +35,11 @@ export default function Info(){
                 <div className='info__content'>
                     <h3 className='info__content-title'>Développeur Web Junior</h3>
                     <p className='info__content-text'>Un aperçu de ma manière de concevoir le web</p>
-                    <p className='info__content-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eos maxime commodi quisquam dolores omnis officia unde. Minus consequatur enim sunt iusto, quaerat explicabo, nostrum architecto, fugit nulla consectetur fugiat.</p>
+                    <p className='info__content-text'>
+                        Je suis un développeur web junior en formation, passionné par la création de sites et applications modernes.
+                        J’aime transformer des idées en projets concrets, tester différentes solutions et améliorer constamment mes compétences pour livrer un produit fonctionnel et soigné.
+                        Chaque projet est l’occasion d’allier technique, design et expérience utilisateur pour obtenir un résultat à la fois fonctionnel et agréable à utiliser.
+                    </p>
                 </div>
                 <div className='info__cards'>
                     {infos.map((info) => (
