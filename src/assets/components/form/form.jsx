@@ -9,7 +9,7 @@ export default function Form() {
     e.preventDefault();
     const subject = encodeURIComponent(`Message de ${name}`);
     const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-    const mailtoLink = `mailto:contact@exemple.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:sendra.florian@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
   }
   return (
