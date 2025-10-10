@@ -5,25 +5,25 @@ export default function Info(){
     const infos = [
         {
             "source": "/public/images/settings.svg",
-            "iconAlt": "alt",
+            "iconAlt": "représentation d'un engrenage",
             "title": "Code Sémantique",
             "text": "Un code propre et bien structuré, pensé pour être facile à lire, maintenir et faire évoluer."
         },
         {
             "source": "/public/images/smartphone.svg",
-            "iconAlt": "alt",
+            "iconAlt": "représentation d'un smartphone",
             "title": "Design Responsive",
             "text": "Un site qui s’adapte parfaitement à tous les écrans, avec une approche mobile-first pour une expérience fluide."
         },
         {
             "source": "/public/images/users.svg",
-            "iconAlt": "alt",
+            "iconAlt": "représentation d'une personne",
             "title": "Accessibilité et UX",
             "text": "Des interfaces inclusives et intuitives, conçues pour que chaque utilisateur s’y retrouve facilement."
         },
         {
             "source": "/public/images/image.svg",
-            "iconAlt": "alt",
+            "iconAlt": "représentation d'un dessin",
             "title": "Intégration",
             "text": "De la maquette au code, je veille à respecter chaque détail visuel et interaction pour un rendu fidèle et professionnel."
         }
