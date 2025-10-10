@@ -8,7 +8,7 @@ export default function Header(){
 
     return(
         <header className='header'>
-            <RouterLink to='/'><img className='header__logo' src="/public/images/logo.png" alt="" /></RouterLink>
+            <RouterLink to='/'><img className='header__logo' src="/public/images/logo.webp" alt="" /></RouterLink>
             <nav className={`${isOpen ? "header__nav--active" : "header__nav" }`}>
                 <Link to="hero" smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</Link>
                 <Link to="info" smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</Link>
