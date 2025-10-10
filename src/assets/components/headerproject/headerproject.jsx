@@ -14,7 +14,7 @@ export default function Header(){
                 <Link to='gallery' smooth={true} duration={700} className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</Link>
                 <div className='header__social'>
                     <a href='https://github.com/Flow2510' target='__blank' className='header__social-link'><i className="fa-brands fa-github"></i></a>
-                    <a href='https://fr.linkedin.com/' className='header__social-link' target='__blank'><i className="fa-brands fa-square-linkedin"></i></a>
+                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank'><i className="fa-brands fa-square-linkedin"></i></a>
                     <Link to='contact' smooth={true} duration={700} className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
                 </div>
             </nav>
