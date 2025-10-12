@@ -60,6 +60,18 @@
         "description": "Le projet Sunnyside Agency est un challenge Frontend Mentor visant à recréer la page d’accueil d’une agence de communication. \nL’objectif est de reproduire fidèlement la maquette fournie en utilisant HTML, CSS et JavaScript. \nLe projet met l’accent sur une mise en page responsive et fluide grâce à Flexbox et CSS Grid, ainsi que sur la gestion du menu mobile et des effets d’animation au scroll. \nCette réalisation permet de renforcer les compétences en intégration moderne, en gestion du responsive design et en optimisation de l’expérience utilisateur sur tous les supports."
     },
     {
+        "id": "loopstudios",
+        "image": "/images/loopstudios.webp",
+        "imageDesktop": "/images/loopstudios-desktop.webp",
+        "imageMobile": "/images/loopstudios-mobile.webp",
+        "alt": "interface du site loopstudios",
+        "title": "Loopstudios",
+        "git": "https://github.com/Flow2510/loopstudio",
+        "tags": ["REACT", "SCSS", "Responsive", "Figma", "Openclassrooms"],
+        "titleDescription": "Description",
+        "description": "Loopstudios est une landing page moderne conçue pour une agence fictive spécialisée dans la création d’expériences en réalité virtuelle. \nLe projet met en avant un design épuré et immersif, avec une mise en page entièrement responsive et des animations légères pour enrichir l’expérience utilisateur. \nRéalisé avec HTML, SCSS et JavaScript, il illustre une attention particulière portée à la structure du code, à la cohérence visuelle et à la finesse des transitions. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la maîtrise des fondamentaux du front-end moderne et du design orienté expérience."
+    },
+    {
         "id": "REST Countries API",
         "image": "/images/restcountries.webp",
         "imageDesktop": "/images/restcountries-desktop.webp",
