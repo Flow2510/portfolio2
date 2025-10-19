@@ -33,7 +33,7 @@ export default function Info(){
         <section className='info'>
             <div className='info__wrapper'>
                 <div className='info__content'>
-                    <h3 className='info__content-title'>Développeur Web Junior</h3>
+                    <h3 className='info__content-title'>Mon Approche du Développement Web</h3>
                     <p className='info__content-text'>Un aperçu de ma manière de concevoir le web</p>
                     <p className='info__content-text'>
                         Je suis un développeur web junior en formation, passionné par la création de sites et applications modernes.

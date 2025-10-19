@@ -17,8 +17,8 @@ export default function Project() {
             <main>
                 <div className='project'>
                     <div className="project__image-wrapper">
-                        <img className="project__image-desktop" src={project.imageDesktop} alt="" />
-                        <img className="project__image-mobile" src={project.imageMobile} alt="" />
+                        <img className="project__image-desktop" src={project.imageDesktop} alt={project.alt} />
+                        <img className="project__image-mobile" src={project.imageMobile} alt={project.alt} />
                     </div>
                     <div className='project__content'>
                         <h2 className='project__content-title'>{project.title}</h2>
