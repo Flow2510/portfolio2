@@ -79,6 +79,7 @@
         "altMobile": "interface du site Loopstudios sur un smartphone",
         "title": "Loopstudios",
         "git": "https://github.com/Flow2510/loopstudio",
+        "page": "https://loopstudios2510.netlify.app/",
         "tags": ["REACT", "SCSS", "Responsive", "Figma", "Openclassrooms"],
         "titleDescription": "Description",
         "description": "Loopstudios est une landing page moderne conçue pour une agence fictive spécialisée dans la création d’expériences en réalité virtuelle. \nLe projet met en avant un design épuré et immersif, avec une mise en page entièrement responsive et des animations légères pour enrichir l’expérience utilisateur. \nRéalisé avec HTML, SCSS et JavaScript, il illustre une attention particulière portée à la structure du code, à la cohérence visuelle et à la finesse des transitions. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la maîtrise des fondamentaux du front-end moderne et du design orienté expérience."
@@ -93,6 +94,7 @@
         "altMobile": "interface du site Rest Countries API sur un smartphone",
         "title": "REST Countries API",
         "git": "https://github.com/Flow2510/REST-Countries",
+        "page": "https://restapicountriesflow2510.netlify.app/",
         "tags": ["React", "API REST", "Fetch", "JavaScript", "Responsive", "DarkMode", "Routing", "FrontendMentor"],
         "titleDescription": "Description",
         "description": "Le projet REST Countries API est un challenge Frontend Mentor consistant à construire une application web interactive en React. \nL’objectif est d’afficher des données en temps réel depuis l’API REST Countries, tout en proposant une interface moderne et responsive. \nL’utilisateur peut rechercher un pays, filtrer par région, et consulter les détails (population, capitale, frontières, etc.). \nLe projet intègre également un mode sombre géré en JavaScript/React et une navigation entre les pages via React Router. \nCe projet met en avant la consommation d’API REST, la gestion de l’état avec React, la création de composants réutilisables et l’attention portée à l’UX/UI."
@@ -110,5 +112,19 @@
         "tags": ["REACT", "SCSS", "Responsive", "Figma", "FrontendMentor"],
         "titleDescription": "Description",
         "description": "Projet d’intégration réalisé à partir d’une maquette Frontend Mentor. \nL’objectif était de recréer la page d’accueil d’un site de mobilier design, en respectant le design et en assurant une expérience fluide sur tous les écrans. \nLe site présente un slider interactif mettant en avant différents produits, une mise en page responsive basée sur CSS Grid et Flexbox, ainsi qu’un menu de navigation dynamique adapté au mobile."
-    }
+    },
+    {
+        "id": "alarado",
+        "image": "/images/alarado.webp",
+        "imageDesktop": "/images/alarado-desktop.webp",
+        "imageMobile": "/images/alarado-mobile.webp",
+        "altDesktop": "interface du site Alarado sur un pc portable",
+        "altMobile": "interface du site Alarado sur un smartphone",
+        "alt": "interface du site Alarado",
+        "title": "Alarado",
+        "git": "https://github.com/Flow2510/alarado",
+        "tags": ["REACT", "SCSS", "Responsive", "DevChallenges"],
+        "titleDescription": "Description",
+        "description": "Le projet Alarado est un challenge DevChallenges.io consistant à reproduire une landing page moderne et responsive en React. \nL’objectif est de mettre en avant un design clair et professionnel, tout en assurant une structure de code propre et réutilisable. \nLe site intègre un système de thème clair/sombre géré via des variables sCSS et React, ainsi qu’une architecture SCSS modulable avec variables et mixins. \nCe projet met en avant la maîtrise de la structuration de composants React, la gestion de thèmes dynamiques, et l’application des bonnes pratiques d’intégration front-end."
+    }    
 ]

@@ -48,6 +48,12 @@
         }
     }
 
+    &__link-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
     &__link{
         text-decoration: none;
         color: #cf404d;

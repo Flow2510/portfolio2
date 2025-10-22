@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom"
 import projects from '../data/projects.json'
-import Slider from '../assets/components/slider/slider'
 import HeaderProject from '../assets/components/headerproject/headerproject'
 import CallToAction from '../assets/components/calltoaction/calltoaction'
 import './project.scss'
@@ -28,7 +27,12 @@ export default function Project() {
                                 <span className='project__tag' key={tag}>{tag}</span>
                             ))}
                         </div>
-                        <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
+                        <div className="project__link-wrapper">
+                            <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
+                            {project.page && 
+                                <Link className="project__link" to={project.page} target="__blank"><i className="fa-solid fa-link"></i> Lien vers le site</Link>
+                            }
+                        </div>
                     </div>
                 </div>
                 <CallToAction
