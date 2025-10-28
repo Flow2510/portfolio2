@@ -100,6 +100,21 @@
         "description": "Le projet REST Countries API est un challenge Frontend Mentor consistant à construire une application web interactive en React. \nL’objectif est d’afficher des données en temps réel depuis l’API REST Countries, tout en proposant une interface moderne et responsive. \nL’utilisateur peut rechercher un pays, filtrer par région, et consulter les détails (population, capitale, frontières, etc.). \nLe projet intègre également un mode sombre géré en JavaScript/React et une navigation entre les pages via React Router. \nCe projet met en avant la consommation d’API REST, la gestion de l’état avec React, la création de composants réutilisables et l’attention portée à l’UX/UI."
     },
     {
+        "id": "Product List",
+        "image": "/images/productcart.webp",
+        "imageDesktop": "/images/productcart-desktop.webp",
+        "imageMobile": "/images/productcart-mobile.webp",
+        "alt": "un dessert",
+        "altDesktop": "interface du site Product List sur un pc portable",
+        "altMobile": "interface du site Product List sur un smartphone",
+        "title": "Product List",
+        "git": "https://github.com/Flow2510/Product-list",
+        "page": "https://productlist-flow2510.netlify.app/",
+        "tags": ["React", "SCSS", "Responsive", "FrontendMentor"],
+        "titleDescription": "Description",
+        "description": "Product Cart List est une interface moderne et interactive permettant de parcourir une sélection de desserts et de les ajouter à un panier dynamique. \nLe projet met l’accent sur l’expérience utilisateur à travers une gestion fluide des quantités, une mise à jour en temps réel du total et une interface claire et responsive. \nConçu avec React et SCSS, il illustre la maîtrise des états partagés, du levage d’état (“lifting state up”) et de la logique d’interaction entre composants réutilisables. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la capacité à structurer un code propre et maintenable tout en intégrant des comportements dynamiques et cohérents sur l’ensemble de l’application."
+    },
+    {
         "id": "room",
         "image": "/images/room.webp",
         "imageDesktop": "/images/room-desktop.webp",
