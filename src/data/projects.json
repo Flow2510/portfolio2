@@ -1,5 +1,20 @@
 [
     {
+        "id": "weatherapp",
+        "image": "/images/weatherapp.webp",
+        "imageDesktop": "/images/weatherapp-desktop.webp",
+        "imageMobile": "/images/weatherapp-mobile.webp",
+        "alt": "logo de Weather App",
+        "altDesktop": "interface du site Weather App sur un pc portable",
+        "altMobile": "interface du site Weather App sur un smartphone",
+        "title": "Weather App",
+        "git": "https://github.com/Flow2510/Weather-Now",
+        "page": "https://weathernowflow2510.netlify.app/",
+        "tags": ["React", "API REST", "Fetch", "JavaScript", "Responsive", "FrontendMentor"],
+        "titleDescription": "Description",
+        "description": "Le projet Weather App est un défi Frontend Mentor consistant à concevoir une application météo interactive en React.\nL’objectif est d’afficher en temps réel les conditions et prévisions météorologiques grâce à l’API Open-Meteo, tout en offrant une interface moderne, claire et responsive.\nL’utilisateur peut rechercher une ville, consulter la température actuelle, les conditions météo détaillées et les prévisions des prochains jours."
+    },
+    {
         "id": "kasa",
         "image": "/images/Kasa.webp",
         "imageDesktop": "/images/kasa-desktop.webp",
@@ -112,7 +127,7 @@
         "page": "https://productlist-flow2510.netlify.app/",
         "tags": ["React", "SCSS", "Responsive", "FrontendMentor"],
         "titleDescription": "Description",
-        "description": "Product Cart List est une interface moderne et interactive permettant de parcourir une sélection de desserts et de les ajouter à un panier dynamique. \nLe projet met l’accent sur l’expérience utilisateur à travers une gestion fluide des quantités, une mise à jour en temps réel du total et une interface claire et responsive. \nConçu avec React et SCSS, il illustre la maîtrise des états partagés, du levage d’état (“lifting state up”) et de la logique d’interaction entre composants réutilisables. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la capacité à structurer un code propre et maintenable tout en intégrant des comportements dynamiques et cohérents sur l’ensemble de l’application."
+        "description": "Product Cart List est une interface moderne et interactive permettant de parcourir une sélection de desserts et de les ajouter à un panier dynamique. \nLe projet met l’accent sur l’expérience utilisateur à travers une gestion fluide des quantités, une mise à jour en temps réel du total et une interface claire et responsive. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la capacité à structurer un code propre et maintenable tout en intégrant des comportements dynamiques et cohérents sur l’ensemble de l’application."
     },
     {
         "id": "room",
