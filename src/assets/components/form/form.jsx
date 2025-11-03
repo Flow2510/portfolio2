@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import './form.scss'
+import './form.scss';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'motion/react';
 
 export default function Form() {
   const [name, setName] = useState("");
@@ -10,10 +12,15 @@ export default function Form() {
     const subject = encodeURIComponent(`Message de ${name}`);
     const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
     const mailtoLink = `mailto:sendra.florian@gmail.com?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
+    globalThis.location.href = mailtoLink;
   }
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <motion.form 
+      initial={{ scale: 0 }}
+      whileInView={{ scale: 1 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.5 }}
+      className="form" onSubmit={handleSubmit}>
       <div className="form__input-wrapper">
         <label htmlFor="name" className="sr-only">
           Nom
@@ -49,6 +56,6 @@ export default function Form() {
         ></textarea>
       </div>
       <button className="form__button" type="submit">Envoyer message</button>
-    </form>
+    </motion.form>
   );
 }

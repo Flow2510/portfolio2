@@ -1,4 +1,6 @@
 import InfoCard from '../infocard/infocard';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'motion/react';
 import './info.scss';
 
 export default function Info(){
@@ -33,13 +35,23 @@ export default function Info(){
         <section className='info'>
             <div className='info__wrapper'>
                 <div className='info__content'>
-                    <h3 className='info__content-title'>Mon Approche du Développement Web</h3>
-                    <p className='info__content-text'>Un aperçu de ma manière de concevoir le web</p>
-                    <p className='info__content-text'>
-                        Je suis un développeur web junior en formation, passionné par la création de sites et applications modernes.
-                        J’aime transformer des idées en projets concrets, tester différentes solutions et améliorer constamment mes compétences pour livrer un produit fonctionnel et soigné.
-                        Chaque projet est l’occasion d’allier technique, design et expérience utilisateur pour obtenir un résultat à la fois fonctionnel et agréable à utiliser.
-                    </p>
+                    <motion.h3 
+                        initial={{ scale: 0 }}
+                        whileInView={{ scale: 1 }}
+                        transition={{ duration: 0.5, ease: "easeOut" }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        className='info__content-title'>
+                            Mon Approche du Développement Web
+                    </motion.h3>
+                    <motion.p 
+                        initial={{ scale: 0 }}
+                        whileInView={{ scale: 1 }}
+                        transition={{ duration: 0.5, ease: "easeOut" }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        className='info__content-text'>
+                            Un aperçu de ma manière de concevoir le web
+                    </motion.p>
+
                 </div>
                 <div className='info__cards'>
                     {infos.map((info) => (

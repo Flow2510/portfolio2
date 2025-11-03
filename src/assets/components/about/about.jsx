@@ -1,21 +1,60 @@
 import './about.scss';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'motion/react';
 
 export default function About() {
     return(
         <section className="about" id="about">
             <div className="about__content">
-                <h1 className="about__content-title">Développeur Web Junior</h1>
-                <p className="about__content-text">
-                    Salut, je m’appelle Florian et je suis développeur web junior en plein apprentissage Full-Stack JavaScript. 
-                    Je suis actuellement sur la formation d'intégrateur Web d'OpenClassrooms, où je crée des sites et applications web performants et accessibles. 
-                </p>
-                <p className="about__content-text">
-                    J’ai déjà réalisé plusieurs projets concrets, allant de sites vitrines à des applications interactives, et je mets un point d’honneur à produire un code propre, efficace et maintenable.
-                </p>
-                <p  className="about__content-text">
-                    Passionné par le développement et l’expérience utilisateur, je suis toujours à l’affût de nouvelles technologies et de bonnes pratiques pour améliorer mes projets.
-                    Mon objectif : transformer ma passion du code en une première expérience professionnelle.
-                </p>
+                <motion.h1 
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}  
+                    className="about__content-title">
+                        Développeur Web Junior
+                </motion.h1>
+                <motion.p 
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }} 
+                    className="about__content-text">
+                        Bonjour, moi c’est Florian,
+                </motion.p>
+                <motion.p 
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }} 
+                    className="about__content-text">
+                        Je suis développeur front-end passionné par la création d’interfaces modernes, claires et réactives.
+                        J’aime transformer des maquettes en expériences web fluides, accessibles et bien structurées, grâce à HTML, SASS et React. 
+                </motion.p>
+                <motion.p 
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    className="about__content-text">
+                        Curieux de nature, j’explore progressivement le back-end JavaScript pour devenir plus polyvalent et comprendre l’ensemble de la chaîne de développement.
+                </motion.p>
+                <motion.p
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    className="about__content-text">
+                        Mon objectif aujourd’hui : rejoindre une équipe où je pourrai contribuer, apprendre et grandir en construisant des produits utiles et bien conçus.
+                </motion.p>
+                <motion.p
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    className="about__content-text">
+                        <i className="fa-solid fa-location-dot"></i>Basé dans les Pyrénées-Orientales, mais ouvert à toutes les opportunités (présentiel, hybride ou à distance).
+                </motion.p>
             </div>
         </section>
     )
