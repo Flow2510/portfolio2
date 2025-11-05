@@ -1,6 +1,8 @@
 .footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 2rem 0;
     background-color: #eeebeb;
@@ -8,9 +10,35 @@
 
     @media screen and (min-width:768px) {
         margin-left: 250px;
+        padding: 1rem 0;
     }
 
     &__logo{
         max-width: 140px;
+        margin-bottom: 1rem;
+    }
+
+    &__content{
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #2d3e4f;
+        }
+
+        &-mail{
+            padding: 0.5rem 0;
+            font-weight: 300;
+            font-size: 1rem;
+            text-decoration: none;
+            color: rgb(206, 64, 77);
+        }
+
+        &-text{
+            padding: 0.5rem 0;
+            font-weight: 300;
+            font-size: 1rem;
+        }
     }
 }

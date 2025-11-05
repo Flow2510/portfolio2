@@ -1,11 +1,11 @@
 import { Link, useParams } from "react-router-dom"
 import projects from '../data/projects.json'
-import HeaderProject from '../assets/components/headerproject/headerproject'
 import CallToAction from '../assets/components/calltoaction/calltoaction'
 import './project.scss'
 import Contact from "../assets/components/contact/contact"
 import Slider from "../assets/components/slider/slider"
 import { motion } from "motion/react"
+import Header from "../assets/components/header/header"
 
 export default function Project() {
     const { projectId } = useParams();
@@ -13,7 +13,7 @@ export default function Project() {
 
     return(
         <>
-            <HeaderProject />
+            <Header />
             <main>
                 <div className='project'>
                     <div className="project__image-wrapper">

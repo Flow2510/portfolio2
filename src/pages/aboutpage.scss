@@ -1,0 +1,32 @@
+.aboutpage{
+
+    &__content{
+        max-width: 1100px;
+        margin: auto;
+        text-align: center;
+        padding: 5rem 0 2rem;
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #2d3e4f;
+        }
+
+        &-text{
+            padding: 1rem 0 0 0;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+
+    &__link-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link{
+        padding-top: 0.5rem;
+        color: rgb(206, 64, 77);
+    }
+}
