@@ -14,9 +14,9 @@ export default function Home() {
                 <Hero />
                 <About />
                 <CallToAction
-                to="contact"
-                title="Discutons d’une opportunité"
-                buttonText="Me Contacter"
+                    to="contact"
+                    title="Discutons d’une opportunité"
+                    buttonText="Me Contacter"
                 />
                 <Info />
                 <CallToAction

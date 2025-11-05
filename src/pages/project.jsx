@@ -4,7 +4,8 @@ import HeaderProject from '../assets/components/headerproject/headerproject'
 import CallToAction from '../assets/components/calltoaction/calltoaction'
 import './project.scss'
 import Contact from "../assets/components/contact/contact"
-import Gallery from "../assets/components/gallery/gallery"
+import Slider from "../assets/components/slider/slider"
+import { motion } from "motion/react"
 
 export default function Project() {
     const { projectId } = useParams();
@@ -20,19 +21,51 @@ export default function Project() {
                         <img className="project__image-mobile" src={project.imageMobile} alt={project.alt} />
                     </div>
                     <div className='project__content'>
-                        <h2 className='project__content-title'>{project.title}</h2>
-                        <p className='project__content-text' style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
+                        <motion.h2 
+                            initial={{ scale: 0 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 0.5, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.5 }}  
+                            className='project__content-title'
+                        >
+                            {project.title}
+                        </motion.h2>
+                        <motion.p 
+                            initial={{ scale: 0 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 0.5, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.5 }}  
+                            className='project__content-text' 
+                            style={{ whiteSpace: 'pre-line' }}
+                        >
+                            {project.description}
+                        </motion.p>
                         <div className='project__tag-wrapper'>
                             {project.tags.map((tag) => (
-                                <span className='project__tag' key={tag}>{tag}</span>
+                                <motion.span 
+                                    initial={{ scale: 0 }}
+                                    whileInView={{ scale: 1 }}
+                                    transition={{ duration: 0.5, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.5 }}  
+                                    className='project__tag' 
+                                    key={tag}
+                                >
+                                    {tag}
+                                </motion.span>
                             ))}
                         </div>
-                        <div className="project__link-wrapper">
+                        <motion.div 
+                            initial={{ scale: 0 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 0.5, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.5 }}  
+                            className="project__link-wrapper"
+                        >
                             <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
                             {project.page && 
                                 <Link className="project__link" to={project.page} target="__blank"><i className="fa-solid fa-link"></i> Lien vers le site</Link>
                             }
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
                 <CallToAction
@@ -40,8 +73,8 @@ export default function Project() {
                     title="Discutons d’une opportunité"
                     buttonText="Me Contacter"
                 />
-                <Gallery 
-                    
+                <Slider 
+                   
                 />
                 <CallToAction
                     title="Téléchargez mon CV"
