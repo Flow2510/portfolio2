@@ -6,6 +6,13 @@
     
     &__content{
 
+        &-image{
+            width: 100%;
+            max-width: 100px;
+            border-radius: 9999px;
+            margin-top: 1rem;
+        }
+
         &-title{
             text-transform: uppercase;
             font-weight: 400;

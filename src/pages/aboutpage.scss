@@ -1,10 +1,25 @@
 .aboutpage{
 
+    &__hero{
+        background: url(/images/background-page.webp) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+    }
+
     &__content{
         max-width: 1100px;
         margin: auto;
         text-align: center;
-        padding: 5rem 0 2rem;
+        padding: 2rem 0;
+
+        &-image{
+            width: 100%;
+            max-width: 100px;
+            border-radius: 9999px;
+            margin-top: 1rem;
+        }
 
         &-title{
             text-transform: uppercase;
@@ -23,10 +38,18 @@
     &__link-wrapper{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
     }
 
     &__link{
-        padding-top: 0.5rem;
         color: rgb(206, 64, 77);
+        width: fit-content;
+
+        i{
+            font-size: 1.2rem;
+        }
     }
 }

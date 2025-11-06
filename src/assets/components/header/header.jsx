@@ -15,12 +15,12 @@ export default function Header(){
                 <RouterLink to='/projects' className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
                 <RouterLink to='/contact' className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
                 <div className='header__social'>
-                    <a href='https://github.com/Flow2510' target='__blank' className='header__social-link'><i className="fa-brands fa-github"></i></a>
-                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank'><i className="fa-brands fa-square-linkedin"></i></a>
+                    <a href='https://github.com/Flow2510' target='__blank' className='header__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
+                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
                     <Link to='contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
                 </div>
             </nav>
-            <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)}>
+            <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)} aria-label='bouton menu'>
                 <div className='header__button-wrapper'>
                     <div className={`${isOpen ? "header__button-line1--active" : "header__button-line1"}`}></div>
                     <div className={`${isOpen ? "header__button-line2--active" : "header__button-line2"}`}></div>

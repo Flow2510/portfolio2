@@ -1,5 +1,5 @@
 import './calltoaction.scss';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 export default function CallToAction({ buttonText, title, to, isFile }) {
     return (
@@ -15,7 +15,7 @@ export default function CallToAction({ buttonText, title, to, isFile }) {
                     {buttonText}
                 </a>
             ) : (
-                <Link to={to} smooth={true} duration={700} className="action__button">
+                <Link to={to} className="action__button">
                     {buttonText}
                 </Link>
             )}

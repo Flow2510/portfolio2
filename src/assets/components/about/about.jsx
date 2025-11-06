@@ -6,14 +6,21 @@ export default function About() {
     return(
         <section className="about" id="about">
             <div className="about__content">
-                <motion.h1 
+                <motion.h2 
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.5 }}  
                     className="about__content-title">
                         Développeur Web Junior
-                </motion.h1>
+                </motion.h2>
+                <motion.img 
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }} 
+                    className="about__content-image" src="/images/worker.webp" alt="un homme travaillant sur son ordinateur devant un bureau" 
+                />
                 <motion.p 
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}

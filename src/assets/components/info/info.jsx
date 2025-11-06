@@ -35,14 +35,14 @@ export default function Info(){
         <section className='info'>
             <div className='info__wrapper'>
                 <div className='info__content'>
-                    <motion.h3 
+                    <motion.h2 
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
                         transition={{ duration: 0.5, ease: "easeOut" }}
                         viewport={{ once: true, amount: 0.5 }}
                         className='info__content-title'>
                             Mon Approche du Développement Web
-                    </motion.h3>
+                    </motion.h2>
                     <motion.p 
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}

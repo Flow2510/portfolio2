@@ -7,14 +7,20 @@ export default function Slider() {
     const { projectId } = useParams();
     const otherProjects = projects.filter(p => p.id !== projectId);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [sliceIndex, setSliceIndex] = useState(0);
+    const [translate, setTranslate] = useState(0);
+    const [galleryIndex, setGalleryIndex] = useState(0);
+   const maxClick = Math.ceil(otherProjects.length / 3);
 
     const prevHandleClick = () => {
-        setSliceIndex(prev => Math.max(prev - 3, 0));
+       setTranslate(prev => Math.max(prev - 249, 0));
+       setGalleryIndex(prev => prev - 1)
     };
 
     const nextHandleClick = () => {
-        setSliceIndex(prev => Math.min(prev + 3, otherProjects.length - 3));
+        if (galleryIndex < maxClick - 1) {
+            setTranslate(prev => Math.min(prev + 249));
+            setGalleryIndex(prev => prev + 1)
+        }
     };
 
     return (
@@ -27,27 +33,27 @@ export default function Slider() {
                     alt={otherProjects[currentIndex].altDesktop}
                 />
             </Link>
-
-            <div className='slider__dots'>
+            <div className='slider__dots-wrapper'>
                 <button
                     onClick={prevHandleClick}
-                    className={`slider__dots-dot${sliceIndex === 0 ? " slider__dots-dot--hidden" : ""}`}
+                    className={`slider__dots-arrow${galleryIndex === 0? " slider__dots-arrow--hidden" : ""}`}
                 >
                     <i className="fa-solid fa-chevron-left"></i>
                 </button>
-
-                {otherProjects.slice(sliceIndex, sliceIndex + 3).map((project, index) => (
-                    <button
-                        className='slider__dots-dot'
-                        key={project.id}
-                        onClick={() => setCurrentIndex(index + sliceIndex)}
-                    >
-                        <img src={project.image} alt={project.alt} />
-                    </button>
-                ))}
-
+                <div className='slider__dots'>
+                    {otherProjects.map((project, index) => (
+                        <button
+                            className='slider__dots-dot'
+                            key={project.id}
+                            onClick={() => setCurrentIndex(index)}
+                            style={{ transform: `translateX(-${translate}px)` }}
+                        >
+                            <img src={project.image} alt={project.alt} />
+                        </button>
+                    ))}
+                </div>
                 <button
-                    className={`slider__dots-dot${sliceIndex >= otherProjects.length - 3 ? " slider__dots-dot--hidden" : ""}`}
+                    className={`slider__dots-arrow${galleryIndex === maxClick - 1? " slider__dots-arrow--hidden" : ""}`}
                     onClick={nextHandleClick}
                 >
                     <i className="fa-solid fa-chevron-right"></i>

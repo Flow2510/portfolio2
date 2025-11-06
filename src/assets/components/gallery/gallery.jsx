@@ -8,11 +8,11 @@ export default function Gallery({title}) {
     return(
         <section className='gallery'>
             <div className='gallery__content'>
-                <h3 className='gallery__content-title'>{title}</h3>
+                <h2 className='gallery__content-title'>{title}</h2>
             </div>
             <div className='gallery__wrapper'>
                 {projects.map((project) => (
-                    <Link key={project.title} to={`/${project.id}`}> 
+                    <Link className='gallery__wrapper-link' key={project.title} to={`/${project.id}`}> 
                         <ProjectCard 
                         source={project.image}
                         alt={project.alt}

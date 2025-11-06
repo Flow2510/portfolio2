@@ -1,3 +1,4 @@
+import CallToAction from "../assets/components/calltoaction/calltoaction";
 import Gallery from "../assets/components/gallery/gallery";
 import Header from "../assets/components/header/header";
 import './projectpage.scss'
@@ -7,6 +8,7 @@ export default function ProjectsPage() {
             <>
                 <Header />
                 <main>
+                    <section className="projectpage__hero"></section>
                     <section className="projectpage__content">
                         <h2 className="projectpage__content-title">Mes Projets</h2>
                         <p className="projectpage__content-text">Bienvenue dans ma galerie de projets !</p>
@@ -14,6 +16,11 @@ export default function ProjectsPage() {
                         <p className="projectpage__content-text">Découvrez ici une sélection de mes projets réalisés en tant que développeur front-end:</p>
                     </section>
                     <Gallery />
+                    <CallToAction 
+                        buttonText= " Contact"
+                        title= "N’hésitez pas à me contacter pour toute question ou opportunité"
+                        to= "/contact"
+                    />
                 </main>
             </>
         )
