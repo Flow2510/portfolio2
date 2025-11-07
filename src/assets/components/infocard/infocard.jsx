@@ -12,7 +12,7 @@ export default function InfoCard({ icon, iconAlt, title, text }){
             className='infocard'>
             <img className='infocard__icon' src={icon} alt={iconAlt} />
             <div className='infocard__content'>
-                <h4 className='infocard__content-title'>{title}</h4>
+                <h3 className='infocard__content-title'>{title}</h3>
                 <p className='infocard__content-text'>{text}</p>
             </div>
         </motion.article>

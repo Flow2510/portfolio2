@@ -11,6 +11,7 @@ export default function Home() {
         <>
             <Header />
             <main>
+                <h1 className='sr-only'>Sendra Florian – Développeur Front-End</h1>
                 <Hero />
                 <About />
                 <CallToAction
