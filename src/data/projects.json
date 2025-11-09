@@ -144,20 +144,6 @@
         "description": "Product Cart List est une interface moderne et interactive permettant de parcourir une sélection de desserts et de les ajouter à un panier dynamique. \nLe projet met l’accent sur l’expérience utilisateur à travers une gestion fluide des quantités, une mise à jour en temps réel du total et une interface claire et responsive. \nInspiré d’un challenge Frontend Mentor, ce projet démontre la capacité à structurer un code propre et maintenable tout en intégrant des comportements dynamiques et cohérents sur l’ensemble de l’application."
     },
     {
-        "id": "room",
-        "image": "/images/room.webp",
-        "imageDesktop": "/images/room-desktop.webp",
-        "imageMobile": "/images/room-mobile.webp",
-        "alt": "interface du site Room",
-        "altDesktop": "interface du site Room sur un pc portable",
-        "altMobile": "interface du site Room sur un smartphone",
-        "title": "Room",
-        "git": "https://github.com/Flow2510/Room",
-        "tags": ["REACT", "SCSS", "Responsive", "Figma", "FrontendMentor"],
-        "titleDescription": "Description",
-        "description": "Projet d’intégration réalisé à partir d’une maquette Frontend Mentor. \nL’objectif était de recréer la page d’accueil d’un site de mobilier design, en respectant le design et en assurant une expérience fluide sur tous les écrans. \nLe site présente un slider interactif mettant en avant différents produits, une mise en page responsive basée sur CSS Grid et Flexbox, ainsi qu’un menu de navigation dynamique adapté au mobile."
-    },
-    {
         "id": "alarado",
         "image": "/images/alarado.webp",
         "imageDesktop": "/images/alarado-desktop.webp",
