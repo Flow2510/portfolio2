@@ -1,6 +1,7 @@
 import CallToAction from "../assets/components/calltoaction/calltoaction";
 import Gallery from "../assets/components/gallery/gallery";
 import Header from "../assets/components/header/header";
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
 import './projectpage.scss'
 

@@ -1,4 +1,5 @@
 import './projectcard.scss';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
 
 export default function ProjectCard({ source, alt, title, tags }) {

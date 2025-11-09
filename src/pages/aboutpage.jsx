@@ -2,6 +2,7 @@ import CallToAction from "../assets/components/calltoaction/calltoaction";
 import Header from "../assets/components/header/header";
 import Skills from "../assets/components/skills/skills";
 import './aboutpage.scss'
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
 
 export default function AboutPage(){
@@ -86,10 +87,11 @@ export default function AboutPage(){
                         <a className="aboutpage__link" href="https://www.linkedin.com/in/florian-sendra-3270961a1/" target="__blank"><i className="fa-brands fa-square-linkedin"></i>Mon LinkedIn</a>
                     </motion.div>
                 </section>
-                <CallToAction 
-                    buttonText= "Projets"
-                    title= "Découvrez mes projets récents"
-                    to= "/projects"
+                <CallToAction
+                    title="Téléchargez mon CV"
+                    buttonText="Télécharger"
+                    to="/cv.pdf"
+                    isFile
                 />
             </main>
         </>

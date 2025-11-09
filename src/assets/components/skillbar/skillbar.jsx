@@ -1,4 +1,5 @@
 import './skillbar.scss'
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
 
 export default function SkillBar({title, score}){

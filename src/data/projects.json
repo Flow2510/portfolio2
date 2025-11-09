@@ -1,5 +1,19 @@
 [
     {
+        "id": "extensionslist",
+        "image": "/images/extensionslist.webp",
+        "imageDesktop": "/images/extensionslist-desktop.webp",
+        "imageMobile": "/images/extensionslist-mobile.webp",
+        "alt": "logo de Extensions List",
+        "altDesktop": "interface du site Extensions List sur un pc portable",
+        "altMobile": "interface du site Extensions List sur un smartphone",
+        "title": "Extensions List",
+        "git": "https://github.com/Flow2510/Browser-extension-manager/",
+        "tags": ["React", "JavaScript", "Responsive", "FrontendMentor"],
+        "titleDescription": "Description",
+        "description": "Le projet Browser Extension Manager est un défi Frontend Mentor visant à concevoir une interface web moderne permettant de gérer et promouvoir des extensions de navigateur. \nDéveloppé en React, il met l’accent sur une mise en page claire, esthétique et responsive, avec une expérience utilisateur fluide sur tous les écrans.\nL’objectif est de reproduire une page produit professionnelle, tout en perfectionnant la gestion des composants, du design system et des animations d’interface en React."
+    },
+    {
         "id": "weatherapp",
         "image": "/images/weatherapp.webp",
         "imageDesktop": "/images/weatherapp-desktop.webp",

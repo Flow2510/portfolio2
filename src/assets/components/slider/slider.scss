@@ -33,10 +33,10 @@
     &__dots{
         display: flex;
         align-items: center;
-        gap: 0.5rem;
         height: 75px;
         width: 241px;
         overflow: hidden;
+        gap: 8px;
 
         &-arrow{
             background: none;
