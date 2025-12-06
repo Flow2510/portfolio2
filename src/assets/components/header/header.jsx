@@ -29,7 +29,7 @@ export default function Header(){
                 </button>
             </header>
             {isOpen && 
-                <div className='mobile__background' onClick={() => setIsOpen(false)}></div>
+                <div className='mobile__background' onClick={() => setIsOpen(false)} aria-label='close menu'></div>
             }
             <nav className={`${isOpen ? "mobile__nav--active" : "mobile__nav" }`}>
                 <RouterLink to="/" className='mobile__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
