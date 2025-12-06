@@ -7,25 +7,41 @@ export default function Header(){
     const [isOpen, setIsOpen] = useState(false);
 
     return(
-        <header className='header'>
-            <RouterLink to='/'><img className='header__logo' src="/images/logo.webp" alt="logo du site" /></RouterLink>
-            <nav className={`${isOpen ? "header__nav--active" : "header__nav" }`}>
-                <RouterLink to="/" className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
-                <RouterLink to="/about" className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</RouterLink>
-                <RouterLink to='/projects' className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
-                <RouterLink to='/contact' className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
-                <div className='header__social'>
-                    <a href='https://github.com/Flow2510' target='__blank' className='header__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
-                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
-                    <Link to='contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
+        <>
+            <header className='header'>
+                <RouterLink to='/'><img className='header__logo' src="/images/logo.webp" alt="logo du site" /></RouterLink>
+                <nav className="header__nav">
+                    <RouterLink to="/" className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
+                    <RouterLink to="/about" className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</RouterLink>
+                    <RouterLink to='/projects' className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
+                    <RouterLink to='/contact' className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
+                    <div className='header__social'>
+                        <a href='https://github.com/Flow2510' target='__blank' className='header__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
+                        <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
+                        <Link to='contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
+                    </div>
+                </nav>
+                <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)} aria-label='bouton menu'>
+                    <div className='header__button-wrapper'>
+                        <div className={`${isOpen ? "header__button-line1--active" : "header__button-line1"}`}></div>
+                        <div className={`${isOpen ? "header__button-line2--active" : "header__button-line2"}`}></div>
+                    </div>
+                </button>
+            </header>
+            {isOpen && 
+                <div className='mobile__background' onClick={() => setIsOpen(false)}></div>
+            }
+            <nav className={`${isOpen ? "mobile__nav--active" : "mobile__nav" }`}>
+                <RouterLink to="/" className='mobile__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
+                <RouterLink to="/about" className='mobile__nav-link' onClick={() => setIsOpen(false)}>À Propos</RouterLink>
+                <RouterLink to='/projects' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
+                <RouterLink to='/contact' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
+                <div className='mobile__social'>
+                    <a href='https://github.com/Flow2510' target='__blank' className='mobile__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
+                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='mobile__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
+                    <Link to='contact' className='mobile__social-link'><i className="fa-solid fa-envelope"></i></Link>
                 </div>
             </nav>
-            <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)} aria-label='bouton menu'>
-                <div className='header__button-wrapper'>
-                    <div className={`${isOpen ? "header__button-line1--active" : "header__button-line1"}`}></div>
-                    <div className={`${isOpen ? "header__button-line2--active" : "header__button-line2"}`}></div>
-                </div>
-            </button>
-        </header>
+        </>
     )
 }

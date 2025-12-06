@@ -8,7 +8,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 50;
+    z-index: 100;
 
     @media screen and (min-width: 768px){
         position: fixed;
@@ -40,25 +40,14 @@
     }
 
     &__nav{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
+        display: none;
         background-color: #49647b;
-        gap: 1rem;
-        width: 100%;
-        left: 0;
-        padding: 1rem;
-        transform: translateY(-20rem);
-        transition: transform 0.5s ease-in-out;
-        z-index: 10;
 
         @media screen and (min-width: 768px){
             display: flex;
             flex-direction: column;
             gap: 1rem;
             font-size: 1rem;
-            position: initial;
             background-color: transparent;
             width: 100%;
             padding: 1rem;
@@ -184,6 +173,91 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
+
+            &:hover{
+                color: #cf404d;
+            }
+        }
+    }
+}
+
+.mobile{
+
+    &__background{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 50;
+    }
+
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -180px;
+        background-color: #49647b;
+        gap: 1rem;
+        width: 100%;
+        left: 0;
+        padding: 1rem;
+        transition: top 0.5s ease-in-out;
+        z-index: 90;
+
+        @media screen and (min-width: 768px){
+            display: none;
+        }
+
+        &--active{
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 60px;
+            background-color: #49647b;
+            gap: 1rem;
+            width: 100%;
+            left: 0;
+            padding: 1rem;
+            transition: top 0.5s ease-in-out;
+            z-index: 90;
+        }
+
+        &-link{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            width: fit-content;
+            margin: 0;
+
+            &:hover{
+                color: #cf404d;
+            }
+
+            &--active{
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &__social{
+        font-size: 1.1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        &-link{
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 0.25rem;
 
             &:hover{
                 color: #cf404d;

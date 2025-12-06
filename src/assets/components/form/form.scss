@@ -4,14 +4,6 @@
     max-width: 500px;
     margin: auto;
 
-    &__input-wrapper{
-        
-        @media screen and (min-width:768px) {
-            display: flex;
-            gap: 1rem;
-        }
-    }
-
     &__input{
         width: 100%;
         padding: 0.5rem 0.8rem;
@@ -20,6 +12,10 @@
         margin-top: 0.5rem;
         font-size: 0.9rem;
         outline: none;
+
+        &--error{
+            border-color: #cf404d;
+        }
     }
 
     &__textarea{
@@ -32,11 +28,18 @@
         font-size: 0.9rem;
         outline: none;
 
+        &--error{
+            border-color: #cf404d;
+        }
+
         &::placeholder{
             font-family: sans-serif;
         }
+    }
 
-
+    &__error{
+        color: #cf404d;
+        text-align: left;
     }
 
     &__button{

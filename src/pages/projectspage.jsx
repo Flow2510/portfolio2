@@ -13,10 +13,10 @@ export default function ProjectsPage() {
                     <section className="projectpage__hero"></section>
                     <motion.section 
                         className="projectpage__content"
-                        initial={{ scale: 0 }}
-                        animate={{ scale: 1 }}
-                        transition={{ duration: 0.5, ease: "easeOut" }}
-                        viewport={{ once: true, amount: 0.5 }} 
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                        viewport={{ once: true, amount: 0.4 }}
                     >
                         <h2 className="projectpage__content-title">Mes Projets</h2>
                         <p className="projectpage__content-text">Bienvenue dans ma galerie de projets !</p>

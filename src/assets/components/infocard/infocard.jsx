@@ -5,10 +5,10 @@ import { motion } from 'motion/react';
 export default function InfoCard({ icon, iconAlt, title, text }){
     return(
         <motion.article 
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.5 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.4 }}
             className='infocard'>
             <img className='infocard__icon' src={icon} alt={iconAlt} />
             <div className='infocard__content'>

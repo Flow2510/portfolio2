@@ -6,10 +6,10 @@ export default function SkillBar({title, score}){
     return(
         <motion.article 
             className='skillbar'
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.5 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.4 }}
         >
             <span className='skillbar__title'>{title} :</span>
             <div className='skillbar__wrapper'>

@@ -8,10 +8,10 @@ export default function Contact(){
         <section className='contact'>
             <div className='contact__content'>
                 <motion.h2 
-                    initial={{ scale: 0 }}
-                    whileInView={{ scale: 1 }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
-                    viewport={{ once: true, amount: 0.5 }}
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.4 }}
                     className='contact__content-title'>
                         Contact
                 </motion.h2>

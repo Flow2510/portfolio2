@@ -1,10 +1,19 @@
+import { motion } from 'motion/react'
 import SkillBar from '../skillbar/skillbar'
 import './skills.scss'
 
 export default function Skills() {
     return(
         <section className='skills'>
-            <h3 className='skills__title'>Technologies :</h3>
+            <motion.h3
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.4 }}
+                className='skills__title'
+            >
+                Technologies :
+            </motion.h3>
             <div className='skills__content'>
                 <SkillBar 
                     title="HTML/CSS"

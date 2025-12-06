@@ -8,11 +8,12 @@ export default function ProjectCard({ source, alt, title, tags }) {
             <button className='projectcard'>
                 <motion.img 
                     className='projectcard__image' 
-                    src={source} alt={alt} 
-                    initial={{ scale: 0 }}
-                    whileInView={{ scale: 1 }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
-                    viewport={{ once: true, amount: 0.5 }} 
+                    src={source}
+                    alt={alt} 
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.4 }}
                 />
                 <div className='projectcard__overlay'>
                     <h2>{title}</h2>

@@ -2,8 +2,10 @@ import './slider.scss';
 import projects from '../../../data/projects.json';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'motion/react';
 
-export default function Slider() {
+export default function Slider({title}) {
     const { projectId } = useParams();
     const otherProjects = projects.filter(p => p.id !== projectId);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,10 +26,21 @@ export default function Slider() {
     };
 
     return (
-        <section className='slider'>
-            <h2 className='slider__title'>Plus de projets</h2>
+        <motion.section 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.4 }}
+            className='slider'
+        >
+            <h2 className='slider__title'>{title}</h2>
+            <p className='slider__subtitle'>{otherProjects[currentIndex].id}</p>
             <Link className='slider__link' to={`/${otherProjects[currentIndex].id}`}>
-                <img
+                <motion.img
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.4 }}
                     className='slider__link-image'
                     src={otherProjects[currentIndex].imageDesktop}
                     alt={otherProjects[currentIndex].altDesktop}
@@ -59,6 +72,6 @@ export default function Slider() {
                     <i className="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
-        </section>
+        </motion.section>
     );
 }

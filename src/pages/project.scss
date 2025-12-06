@@ -8,8 +8,18 @@
         margin: 0 auto;
     }
 
+    &__title{
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 2rem;
+        color: #2d3e4f;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
     &__image-wrapper{
         position: relative;
+        padding: 0 1rem;
     }
 
     &__image-desktop{
@@ -28,21 +38,31 @@
     }
 
     &__content{
-        padding: 0 1rem 1rem;
+        padding: 0 1.5rem 1rem;
         max-width: 800px;
         margin: auto;
 
-        &-title{
-            text-transform: uppercase;
-            font-weight: 400;
-            font-size: 2rem;
-            color: #2d3e4f;
-            text-align: center;
-            margin-top: 1rem;
+        &-description{
+            padding: 1rem 0;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+
+    &__objectifs{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        ul{
+            padding: 0 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
         }
 
-        &-text{
-            padding: 1rem 0;
+        &-objectif{
             font-weight: 300;
             font-size: 1rem;
         }
@@ -59,15 +79,17 @@
         color: #cf404d;
     }
 
-    &__tag-wrapper{
+    &__stacks{
         display: flex;
+        flex-direction: column;
         gap: 1rem;
-        text-wrap: nowrap;
-        flex-wrap: wrap;
         margin-bottom: 1rem;
+        
+        &-stack{
+            font-weight: 300;
+            font-size: 1rem;
+        }
     }
 
-    &__tag{
-        color: #2d3e4f;
-    }
+    
 }

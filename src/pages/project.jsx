@@ -4,6 +4,7 @@ import CallToAction from '../assets/components/calltoaction/calltoaction'
 import './project.scss'
 import Contact from "../assets/components/contact/contact"
 import Slider from "../assets/components/slider/slider"
+// eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
 import Header from "../assets/components/header/header"
 
@@ -16,49 +17,90 @@ export default function Project() {
             <Header />
             <main>
                 <div className='project'>
+                    <motion.h2 
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                        viewport={{ once: true, amount: 0.4 }}
+                        className='project__title'
+                    >
+                        {project.title}
+                    </motion.h2>
                     <div className="project__image-wrapper">
-                        <img className="project__image-desktop" src={project.imageDesktop} alt={project.alt} />
-                        <img className="project__image-mobile" src={project.imageMobile} alt={project.alt} />
+                        <motion.img
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.4 }}
+                            className="project__image-desktop" 
+                            src={project.imageDesktop} 
+                            alt={project.alt} 
+                        />
+                        <motion.img
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.4 }}
+                            className="project__image-mobile" 
+                            src={project.imageMobile} 
+                            alt={project.alt} 
+                        />
                     </div>
                     <div className='project__content'>
-                        <motion.h2 
-                            initial={{ scale: 0 }}
-                            whileInView={{ scale: 1 }}
-                            transition={{ duration: 0.5, ease: "easeOut" }}
-                            viewport={{ once: true, amount: 0.5 }}  
-                            className='project__content-title'
-                        >
-                            {project.title}
-                        </motion.h2>
                         <motion.p 
-                            initial={{ scale: 0 }}
-                            whileInView={{ scale: 1 }}
-                            transition={{ duration: 0.5, ease: "easeOut" }}
-                            viewport={{ once: true, amount: 0.5 }}  
-                            className='project__content-text' 
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.4 }}  
+                            className='project__content-description' 
                             style={{ whiteSpace: 'pre-line' }}
                         >
                             {project.description}
                         </motion.p>
-                        <div className='project__tag-wrapper'>
-                            {project.tags.map((tag) => (
-                                <motion.span 
-                                    initial={{ scale: 0 }}
-                                    whileInView={{ scale: 1 }}
-                                    transition={{ duration: 0.5, ease: "easeOut" }}
-                                    viewport={{ once: true, amount: 0.5 }}  
-                                    className='project__tag' 
-                                    key={tag}
+                        <div className="project__objectifs">
+                            <motion.h3
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, ease: "easeOut" }}
+                                viewport={{ once: true, amount: 0.4 }}
+                            >
+                                Objectifs :
+                            </motion.h3>
+                            <ul>
+                                {project.objectifs.map((obj, index) => (
+                                    <motion.li 
+                                        initial={{ opacity: 0, y: 50 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, ease: "easeOut" }}
+                                        viewport={{ once: true, amount: 0.4 }}  
+                                        className='project__objectifs-objectif'
+                                        key={obj + index}
+                                    >
+                                        {obj}
+                                    </motion.li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className='project__stacks'>
+                            <h3>Technologies :</h3>
+                            {project.stacks.map((stack, index) => (
+                                <motion.p 
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                    className='project__stacks-stack' 
+                                    key={stack + index}
                                 >
-                                    {tag}
-                                </motion.span>
+                                    {stack}
+                                </motion.p>
                             ))}
                         </div>
                         <motion.div 
-                            initial={{ scale: 0 }}
-                            whileInView={{ scale: 1 }}
-                            transition={{ duration: 0.5, ease: "easeOut" }}
-                            viewport={{ once: true, amount: 0.5 }}  
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.4 }}  
                             className="project__link-wrapper"
                         >
                             <Link className="project__link" to={project.git} target="__blank"><i className="fa-brands fa-github"></i> Lien dépot Github</Link>
@@ -74,7 +116,7 @@ export default function Project() {
                     buttonText="Me Contacter"
                 />
                 <Slider 
-                   
+                   title="Autres Projets"
                 />
                 <CallToAction
                     title="Téléchargez mon CV"
