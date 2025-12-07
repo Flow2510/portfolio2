@@ -1,21 +1,14 @@
-import { Link } from 'react-scroll';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
 import './hero.scss';
+import { NavLink } from 'react-router-dom';
 
 export default function Hero(){
-    const handleKeyPress = (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-            event.preventDefault();
-            event.currentTarget.click();
-        }
-    };
-
     return(
         <section className='hero' id='hero'>
             <div className='hero__content'>
                 <motion.img 
-                    initial={{ opacity: 0, y: -50 }}
+                    initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className='hero__logo' 
@@ -28,12 +21,8 @@ export default function Hero(){
                         transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
                         className='hero__link-wrapper'
                     >
-                    <Link onKeyDown={handleKeyPress} tabIndex="0" to='gallery' smooth={true} duration={700} className='hero__link-1'>
-                        Projets
-                    </Link>
-                    <Link onKeyDown={handleKeyPress} tabIndex="0" to='contact' smooth={true} duration={700} className='hero__link-2'>
-                        Contact
-                    </Link>
+                        <NavLink to="/projects"className='hero__link-1'>Projets</NavLink>
+                        <NavLink to="/contact" className='hero__link-2'>Contact</NavLink>
                 </motion.div>
             </div>
         </section>
