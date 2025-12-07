@@ -17,7 +17,7 @@ export default function Header(){
                     <div className='header__social'>
                         <a href='https://github.com/Flow2510' target='__blank' className='header__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
                         <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
-                        <Link to='/contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
+                        <Link aria-label='contact' to='/contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
                     </div>
                 </nav>
                 <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)} aria-label='bouton menu'>
@@ -38,7 +38,7 @@ export default function Header(){
                 <div className='mobile__social'>
                     <a onClick={() => setIsOpen(false)} href='https://github.com/Flow2510' target='__blank' className='mobile__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
                     <a onClick={() => setIsOpen(false)} href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='mobile__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
-                    <Link to="/contact" onClick={() => setIsOpen(false)} className='mobile__social-link'><i className="fa-solid fa-envelope"></i></Link>
+                    <Link aria-label='contact' to="/contact" onClick={() => setIsOpen(false)} className='mobile__social-link'><i className="fa-solid fa-envelope"></i></Link>
                 </div>
             </nav>
         </>
