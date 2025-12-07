@@ -48,6 +48,7 @@ export default function Slider({title}) {
             </Link>
             <div className='slider__dots-wrapper'>
                 <button
+                    aria-label="Previous slide"
                     onClick={prevHandleClick}
                     className={`slider__dots-arrow${galleryIndex === 0? " slider__dots-arrow--hidden" : ""}`}
                 >
@@ -66,6 +67,7 @@ export default function Slider({title}) {
                     ))}
                 </div>
                 <button
+                    aria-label="Next slide"
                     className={`slider__dots-arrow${galleryIndex === maxClick - 1? " slider__dots-arrow--hidden" : ""}`}
                     onClick={nextHandleClick}
                 >

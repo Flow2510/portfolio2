@@ -1,5 +1,4 @@
-import { Link } from 'react-scroll';
-import { Link as RouterLink} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './header.scss';
 import { useState } from 'react';
 
@@ -9,16 +8,16 @@ export default function Header(){
     return(
         <>
             <header className='header'>
-                <RouterLink to='/'><img className='header__logo' src="/images/logo.webp" alt="logo du site" /></RouterLink>
+                <Link to='/'><img className='header__logo' src="/images/logo.webp" alt="logo du site" /></Link>
                 <nav className="header__nav">
-                    <RouterLink to="/" className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
-                    <RouterLink to="/about" className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</RouterLink>
-                    <RouterLink to='/projects' className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
-                    <RouterLink to='/contact' className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
+                    <Link to="/" className='header__nav-link' onClick={() => setIsOpen(false)}>Accueil</Link>
+                    <Link to="/about" className='header__nav-link' onClick={() => setIsOpen(false)}>À Propos</Link>
+                    <Link to='/projects' className='header__nav-link' onClick={() => setIsOpen(false)}>Projets</Link>
+                    <Link to='/contact' className='header__nav-link' onClick={() => setIsOpen(false)}>Contact</Link>
                     <div className='header__social'>
                         <a href='https://github.com/Flow2510' target='__blank' className='header__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
                         <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='header__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
-                        <Link to='contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
+                        <Link to='/contact' className='header__social-link'><i className="fa-solid fa-envelope"></i></Link>
                     </div>
                 </nav>
                 <button className={`${isOpen ? "header__button--active" : "header__button"}`} onClick={() => setIsOpen((prev) => !prev)} aria-label='bouton menu'>
@@ -32,14 +31,14 @@ export default function Header(){
                 <div className='mobile__background' onClick={() => setIsOpen(false)} aria-label='close menu'></div>
             }
             <nav className={`${isOpen ? "mobile__nav--active" : "mobile__nav" }`}>
-                <RouterLink to="/" className='mobile__nav-link' onClick={() => setIsOpen(false)}>Accueil</RouterLink>
-                <RouterLink to="/about" className='mobile__nav-link' onClick={() => setIsOpen(false)}>À Propos</RouterLink>
-                <RouterLink to='/projects' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Projets</RouterLink>
-                <RouterLink to='/contact' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Contact</RouterLink>
+                <Link to="/" className='mobile__nav-link' onClick={() => setIsOpen(false)}>Accueil</Link>
+                <Link to="/about" className='mobile__nav-link' onClick={() => setIsOpen(false)}>À Propos</Link>
+                <Link to='/projects' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Projets</Link>
+                <Link to='/contact' className='mobile__nav-link' onClick={() => setIsOpen(false)}>Contact</Link>
                 <div className='mobile__social'>
-                    <a href='https://github.com/Flow2510' target='__blank' className='mobile__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
-                    <a href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='mobile__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
-                    <Link to='contact' className='mobile__social-link'><i className="fa-solid fa-envelope"></i></Link>
+                    <a onClick={() => setIsOpen(false)} href='https://github.com/Flow2510' target='__blank' className='mobile__social-link' aria-label="Link to my github"><i className="fa-brands fa-github"></i></a>
+                    <a onClick={() => setIsOpen(false)} href='https://www.linkedin.com/in/florian-sendra-3270961a1/' className='mobile__social-link' target='__blank' aria-label="Link to my linkedin profile"><i className="fa-brands fa-square-linkedin"></i></a>
+                    <Link to="/contact" onClick={() => setIsOpen(false)} className='mobile__social-link'><i className="fa-solid fa-envelope"></i></Link>
                 </div>
             </nav>
         </>

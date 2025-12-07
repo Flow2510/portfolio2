@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 export default function ProjectCard({ source, alt, title, tags }) {
 
     return(
-            <button className='projectcard'>
+            <button className='projectcard' tabIndex="-1">
                 <motion.img 
                     className='projectcard__image' 
                     src={source}

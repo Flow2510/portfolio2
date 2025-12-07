@@ -82,19 +82,25 @@ export default function Project() {
                             </ul>
                         </div>
                         <div className='project__stacks'>
-                            <h3>Technologies :</h3>
-                            {project.stacks.map((stack, index) => (
-                                <motion.p 
-                                    initial={{ opacity: 0, y: 50 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.6, ease: "easeOut" }}
-                                    viewport={{ once: true, amount: 0.4 }}  
-                                    className='project__stacks-stack' 
-                                    key={stack + index}
-                                >
-                                    {stack}
-                                </motion.p>
-                            ))}
+                            <h3 className="project__stacks-title">Technologies :</h3>
+                            <div className="project__stacks-wrapper">
+                                <p><b>Languages : </b></p>
+                                <p>{project.stacks.langages}</p>
+                            </div>
+                            <div className="project__stacks-wrapper">
+                                <p><b>Librairies : </b></p>
+                                <p>{project.stacks.libraries}</p>
+                            </div>
+                            {project.stacks.apis &&
+                                <div className="project__stacks-wrapper">
+                                    <p><b>API : </b></p>
+                                    <p>{project.stacks.apis}</p>
+                                </div>
+                            }
+                            <div className="project__stacks-wrapper">
+                                <p><b>Autres : </b></p>
+                                <p>{project.stacks.other}</p>
+                            </div>
                         </div>
                         <motion.div 
                             initial={{ opacity: 0, y: 50 }}

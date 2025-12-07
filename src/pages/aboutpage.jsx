@@ -83,7 +83,7 @@ export default function AboutPage(){
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         viewport={{ once: true, amount: 0.4 }} 
                     >
-                        <p>🔗 Vous pouvez retrouver mes projets et suivre mon évolution ici :</p>
+                        <p>Vous pouvez retrouver mes projets et suivre mon évolution ici :</p>
                         <a className="aboutpage__link" href="https://github.com/Flow2510?tab=repositories" target="__blank"><i className="fa-brands fa-github"></i>Mon GitHub</a>
                         <a className="aboutpage__link" href="https://www.linkedin.com/in/florian-sendra-3270961a1/" target="__blank"><i className="fa-brands fa-square-linkedin"></i>Mon LinkedIn</a>
                     </motion.div>

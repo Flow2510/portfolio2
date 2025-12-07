@@ -24,13 +24,13 @@ export default function Gallery({title}) {
                 {projects.map((project) => (
                     <Link className='gallery__wrapper-link' key={project.title} to={`/${project.id}`}> 
                         <ProjectCard 
-                        source={project.image}
-                        alt={project.alt}
-                        image={project.image}
-                        title={project.title}
-                        text={project.description}
-                        tags={project.tags}
-                    />
+                            source={project.image}
+                            alt={project.alt}
+                            image={project.image}
+                            title={project.title}
+                            text={project.description}
+                            tags={project.tags}
+                        />
                     </Link>
                 ))}
             </div>

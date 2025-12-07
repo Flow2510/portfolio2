@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 export default function Contact(){
     return(
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <div className='contact__content'>
                 <motion.h2 
                     initial={{ opacity: 0, y: 50 }}

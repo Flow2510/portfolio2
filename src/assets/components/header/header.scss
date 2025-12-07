@@ -203,8 +203,9 @@
         width: 100%;
         left: 0;
         padding: 1rem;
-        transition: top 0.5s ease-in-out;
         z-index: 90;
+        visibility: hidden;
+        transition: top 0.5s ease-in-out, visibility 0s 0.5s;
 
         @media screen and (min-width: 768px){
             display: none;
@@ -220,6 +221,7 @@
             width: 100%;
             left: 0;
             padding: 1rem;
+            visibility: visible;
             transition: top 0.5s ease-in-out;
             z-index: 90;
         }

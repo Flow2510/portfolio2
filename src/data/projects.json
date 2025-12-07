@@ -1,280 +1,263 @@
 [
-    {
-        "id": "extensionslist",
-        "image": "/images/extensionslist.webp",
-        "imageDesktop": "/images/extensionslist-desktop.webp",
-        "imageMobile": "/images/extensionslist-mobile.webp",
-        "alt": "logo de Extensions List",
-        "altDesktop": "interface du site Extensions List sur un pc portable",
-        "altMobile": "interface du site Extensions List sur un smartphone",
-        "title": "Extensions List",
-        "git": "https://github.com/Flow2510/Browser-extension-manager/",
-        "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-        
-        "description": "Le projet Browser Extension Manager est un défi Frontend Mentor visant à concevoir une interface web moderne permettant de gérer et promouvoir des extensions de navigateur. Développé en React, il met l’accent sur une mise en page claire, esthétique et responsive, avec une expérience utilisateur fluide sur tous les écrans. L’objectif est de reproduire une page produit professionnelle, tout en perfectionnant la gestion des composants, du design system et des animations d’interface en React.",
-        "objectifs": [
-            "Traduire fidèlement la maquette fournie par Frontend Mentor en code HTML/CSS/React.",
-            "Assurer un design system cohérent et une mise en page 100% responsive.",
-            "Développer des composants interactifs (onglets, accordéons) avec une logique JavaScript propre.",
-            "Mettre en œuvre des animations et transitions CSS fluides."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "Styling : CSS (Flexbox et Grid) pour le responsive design.",
-            "Outils de Développement : Environnement Node.js, VSC, Linter."
-        ]
-    },
-    {
-        "id": "weatherapp",
-        "image": "/images/weatherapp.webp",
-        "imageDesktop": "/images/weatherapp-desktop.webp",
-        "imageMobile": "/images/weatherapp-mobile.webp",
-        "alt": "logo de Weather App",
-        "altDesktop": "interface du site Weather App sur un pc portable",
-        "altMobile": "interface du site Weather App sur un smartphone",
-        "title": "Weather App",
-        "git": "https://github.com/Flow2510/Weather-Now",
-        "page": "https://weathernowflow2510.netlify.app/",
-        "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-        "description": "Le projet Weather App est un défi Frontend Mentor consistant à concevoir une application météo interactive en React. L’objectif est d’afficher en temps réel les conditions et prévisions météorologiques grâce à l’API Open-Meteo, tout en offrant une interface moderne, claire et responsive. L’utilisateur peut rechercher une ville, consulter la température actuelle, les conditions météo détaillées et les prévisions des prochains jours.",
-        "objectifs": [
-            "Intégrer et manipuler les données d'une API météorologique externe (Open-Meteo).",
-            "Gérer l'état de l'application pour la recherche de ville et l'affichage des données.",
-            "Mettre en forme les prévisions météo (actuelle, horaires, journalières) de manière structurée.",
-            "Concevoir une interface utilisateur moderne et entièrement responsive avec React."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "API : Open-Meteo API",
-            "Requêtes : Fetch/Axios (Gestion des promesses asynchrones)"
-        ]
-    },
-    {
-        "id": "kasa",
-        "image": "/images/Kasa.webp",
-        "imageDesktop": "/images/kasa-desktop.webp",
-        "imageMobile": "/images/kasa-mobile.webp",
-        "altDesktop": "interface du site Kasa sur un pc portable",
-        "altMobile": "interface du site Kasa sur un smartphone",
-        "alt": "interface du site Kasa",
-        "title": "Kasa",
-        "git": "https://github.com/Flow2510/Kasa",
-        "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-        
-        "description": "Kasa est une entreprise établie dans la location d'appartements entre particuliers depuis une décennie. Face à l'évolution des standards web et des attentes utilisateurs, la plateforme nécessitait une refonte intégrale de son interface utilisateur. L'enjeu était de moderniser l'expérience client en adoptant une technologie Front-end plus performante et maintenable, tout en respectant l'identité visuelle existante.",
-        "objectifs": [
-            "Traduire les maquettes Figma fournies en composants React.",
-            "Mettre en place un routing performant pour gérer la navigation entre les pages",
-            "Concevoir des composants React réutilisables",
-            "Simuler l'appel à une API en intégrant et en manipulant les données issues d'un fichier JSON.",
-            "Assurer la gestion des erreurs pour les routes et les identifiants de logement non valides."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "Navigation : React Router DOM",
-            "Outils de Développement : Environnement Node.js, Yarn, VSC"
-        ]
-    },
-    {
-        "id": "unsplashbox",
-        "image": "/images/unsplashbox.webp",
-        "imageDesktop": "/images/unsplashbox-desktop.webp",
-        "imageMobile": "/images/unsplashbox-mobile.webp",
-        "altDesktop": "interface du site unsplashbox sur un pc portable",
-        "altMobile": "interface du site unsplashbox sur un smartphone",
-        "alt": "interface du site unsplashbox",
-        "title": "unsplashbox",
-        "git": "https://github.com/Flow2510/unsplashbox",
-        "tags": ["JavaScript", "HTML", "CSS"],
-        "description": "Le projet Unsplash Collection consiste à développer une application front-end en React à partir d’un challenge DevChallenges. L’application permet de parcourir une collection d’images inspirée d’Unsplash, avec une interface fluide et responsive. Chaque image dispose d’une page dédiée affichant ses informations détaillées. Le site utilise React Router DOM pour le routage entre les pages et Sass pour la gestion du style et la création d’une interface moderne et maintenable.",
-        "objectifs": [
-            "Concevoir une architecture de composants React modulaires.",
-            "Mettre en œuvre le routage dynamique avec React Router DOM pour l'affichage des détails.",
-            "Utiliser Sass (SCSS) pour la stylisation et la maintenabilité.",
-            "Assurer un Responsive Design optimisé pour la grille d'images."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "Styling : Sass (SCSS)",
-            "Routing : React Router DOM",
-            "Données : Fichier JSON (simulation d'API REST)"
-        ]
-    },
-    {
-        "id": "argentbank",
-        "image": "/images/argentbank.webp",
-        "imageDesktop": "/images/argentbank-desktop.webp",
-        "imageMobile": "/images/argentbank-mobile.webp",
-        "alt": "une plante pousse sur un tas de pièces",
-        "altDesktop": "interface du site ArgentBank sur un pc portable",
-        "altMobile": "interface du site ArgentBank sur un smartphone",
-        "title": "ArgentBank",
-        "git": "https://github.com/Flow2510/ArgentBank",
-        "tags": ["REACT", "REDUX", "SCSS", "JavaScript", "HTML"],
-        "description": "Le projet ArgentBank consiste à concevoir la partie front-end d'une application bancaire en React. L'objectif est d'intégrer un tableau de bord utilisateur permettant la consultation et la gestion de comptes à partir d'une API REST existante. Le projet met l'accent sur l'authentification, la gestion du state global avec Redux, et l'échange de données via des requêtes asynchrones. L'application comprend une page de connexion sécurisée, un profil utilisateur avec modification des informations, et une présentation des comptes. L'ensemble est réalisé selon une architecture modulaire et responsive, en respectant la maquette Figma fournie.",
-        "objectifs": [
-            "Mettre en place Redux pour la gestion centralisée de l'état d'authentification et du profil.",
-            "Implémenter les appels asynchrones à l'API REST pour le login et la récupération des données utilisateur.",
-            "Développer les pages de connexion et de profil utilisateur avec modification du nom d'affichage.",
-            "Assurer la sécurité et la persistance de la session via les tokens JWT."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML",
-            "Front-end : React",
-            "Styling : Sass (SCSS)",
-            "Gestion d'État : Redux",
-            "Routing : React Router DOM"
-        ]
-    },
-    {
-        "id": "Portfolio",
-        "image": "/images/portfolio.webp",
-        "imageDesktop": "/images/portfolio-desktop.webp",
-        "imageMobile": "/images/portfolio-mobile.webp",
-        "alt": "interface de mon site portfolio",
-        "title": "Portfolio personnel",
-        "altDesktop": "interface de mon portfolio sur un pc portable",
-        "altMobile": "interface de mon portfolio sur un smartphone",
-        "git": "https://github.com/Flow2510/portfolio2",
-        "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-        "description": "Mon site personnel a été conçu comme une vitrine professionnelle pour présenter mon parcours, mes réalisations et mes compétences en développement front-end. Le projet repose sur React pour la structure du contenu, React Router pour la navigation entre les pages, et SCSS pour une gestion claire et modulaire des styles.",
-        "objectifs": [
-            "Concevoir un design UI/UX personnalisé et moderne.",
-            "Mettre en place une Single Page Application avec React Router pour une navigation fluide.",
-            "Développer des composants réutilisables pour les fiches projets.",
-            "Optimiser le design pour le Responsive et les performances."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML",
-            "Front-end : React",
-            "Styling : Sass (SCSS)",
-            "Routing : React Router DOM"
-        ]
-    },
-    {
-        "id": "sunnyside",
-        "image": "/images/sunnyside.webp",
-        "imageDesktop": "/images/sunnyside-desktop.webp",
-        "imageMobile": "/images/sunnyside-mobile.webp",
-        "alt": "interface du site Sunnyside agence",
-        "altDesktop": "interface du site Sunnyside sur un pc portable",
-        "altMobile": "interface du site Sunnyside sur un smartphone",
-        "title": "Sunnyside Agency",
-        "git": "https://github.com/Flow2510/Sunnyside-agency-landing-page",
-        "tags": ["HTML", "CSs", "JavaScript"],
-        "description": "Le projet Sunnyside Agency est un challenge Frontend Mentor visant à recréer la page d’accueil d’une agence de communication. L’objectif est de reproduire fidèlement la maquette fournie en utilisant HTML, CSS et JavaScript. Le projet met l’accent sur une mise en page responsive et fluide grâce à Flexbox et CSS Grid, ainsi que sur la gestion du menu mobile et des effets d’animation au scroll. Cette réalisation permet de renforcer les compétences en intégration moderne, en gestion du responsive design et en optimisation de l’expérience utilisateur sur tous les supports.",
-        "objectifs": [
-            "Intégration HTML/CSS pure",
-            "Responsive Design avancé via Flexbox et CSS Grid.",
-            "Développement de la logique JavaScript pour le menu mobile.",
-            "Implémentation des animations et transitions CSS."
-        ],
-        "stacks": [
-            "Langages : HTML, CSS, JavaScript)",
-            "Styling : CSS (Flexbox, Grid)"
-        ]
-    },
-    {
-        "id": "loopstudios",
-        "image": "/images/loopstudios.webp",
-        "imageDesktop": "/images/loopstudios-desktop.webp",
-        "imageMobile": "/images/loopstudios-mobile.webp",
-        "alt": "interface du site loopstudios",
-        "altDesktop": "interface du site Loopstudios sur un pc portable",
-        "altMobile": "interface du site Loopstudios sur un smartphone",
-        "title": "Loopstudios",
-        "git": "https://github.com/Flow2510/loopstudio",
-        "page": "https://loopstudios2510.netlify.app/",
-        "tags": ["HTML", "SCSS", "JavaScript"],
-        "description": "Loopstudios est une landing page moderne conçue pour une agence fictive spécialisée dans la création d’expériences en réalité virtuelle. Le projet met en avant un design épuré et immersif, avec une mise en page entièrement responsive et des animations légères pour enrichir l’expérience utilisateur. Réalisé avec HTML, SCSS et JavaScript, il illustre une attention particulière portée à la structure du code, à la cohérence visuelle et à la finesse des transitions.",
-        "objectifs": [
-            "Intégration de design immersif avec superpositions de texte.",
-            "Utilisation de SCSS pour la gestion des variables et la modularité des styles.",
-            "Adapter la mise en page (grille de créations) aux différents formats d'écran.",
-            "Gestion des interactions utilisateur simples (menu mobile)."
-        ],
-        "stacks": [
-            "Langages : HTML, JavaScript",
-            "Styling : Sass (SCSS)"
-        ]
-    },
-    {
-        "id": "REST Countries API",
-        "image": "/images/restcountries.webp",
-        "imageDesktop": "/images/restcountries-desktop.webp",
-        "imageMobile": "/images/restcountries-mobile.webp",
-        "alt": "logo de react",
-        "altDesktop": "interface du site Rest Countries API sur un pc portable",
-        "altMobile": "interface du site Rest Countries API sur un smartphone",
-        "title": "REST Countries API",
-        "git": "https://github.com/Flow2510/REST-Countries",
-        "page": "https://restapicountriesflow2510.netlify.app/",
-        "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-        "description": "Le projet REST Countries API est un challenge Frontend Mentor consistant à construire une application web interactive en React. L’objectif est d’afficher des données en temps réel depuis l’API REST Countries, tout en proposant une interface moderne et responsive. L’utilisateur peut rechercher un pays, filtrer par région, et consulter les détails (population, capitale, frontières, etc.). Le projet intègre également un mode sombre géré en JavaScript/React et une navigation entre les pages via React Router.",
-        "objectifs": [
-            "Consommation d'API pour récupérer et afficher les données des pays.",
-            "Implémenter les fonctionnalités de recherche et de filtrage dynamique.",
-            "Développer un mode sombre (Dark Mode) géré par l'état React.",
-            "Utiliser React Router pour la navigation et l'affichage des détails pays."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "Routing : React Router DOM",
-            "API : REST Countries API"
-        ]
-    },
-    {
-        "id": "Product List",
-        "image": "/images/productcart.webp",
-        "imageDesktop": "/images/productcart-desktop.webp",
-        "imageMobile": "/images/productcart-mobile.webp",
-        "alt": "un dessert",
-        "altDesktop": "interface du site Product List sur un pc portable",
-        "altMobile": "interface du site Product List sur un smartphone",
-        "title": "Product List",
-        "git": "https://github.com/Flow2510/Product-list",
-        "page": "https://productlist-flow2510.netlify.app/",
-        "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-        "description": "Product Cart List est une interface moderne et interactive permettant de parcourir une sélection de desserts et de les ajouter à un panier dynamique. Le projet met l’accent sur l’expérience utilisateur à travers une gestion fluide des quantités, une mise à jour en temps réel du total et une interface claire et responsive. Inspiré d’un challenge Frontend Mentor, ce projet démontre la capacité à structurer un code propre et maintenable tout en intégrant des comportements dynamiques et cohérents sur l’ensemble de l’application.",
-        "objectifs": [
-            "Gérer l'état local du panier (quantités, produits) avec React Hooks.",
-            "Implémenter la logique d'ajout/suppression et de mise à jour en temps réel des totaux.",
-            "Développer une interface réactive et modulaire.",
-            "Structurer le code de style avec SCSS."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML, CSS",
-            "Front-end : React",
-            "Styling : Sass (SCSS)"
-        ]
-    },
-    {
-        "id": "alarado",
-        "image": "/images/alarado.webp",
-        "imageDesktop": "/images/alarado-desktop.webp",
-        "imageMobile": "/images/alarado-mobile.webp",
-        "altDesktop": "interface du site Alarado sur un pc portable",
-        "altMobile": "interface du site Alarado sur un smartphone",
-        "alt": "interface du site Alarado",
-        "title": "Alarado",
-        "git": "https://github.com/Flow2510/alarado",
-        "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-        "description": "Le projet Alarado est un challenge DevChallenges.io consistant à reproduire une landing page moderne et responsive en React. L’objectif est de mettre en avant un design clair et professionnel, tout en assurant une structure de code propre et réutilisable. Le site intègre un système de thème clair/sombre géré via des variables sCSS et React, ainsi qu’une architecture SCSS modulable avec variables et mixins. Ce projet met en avant la maîtrise de la structuration de composants React, la gestion de thèmes dynamiques, et l’application des bonnes pratiques d’intégration front-end.",
-        "objectifs": [
-            "Implémenter la gestion dynamique des thèmes (clair/sombre) avec React et SCSS.",
-            "Utiliser les variables SCSS pour centraliser les couleurs de thème.",
-            "Développer une structure de composants React modulaire.",
-            "Assurer une intégration fidèle et responsive à la maquette DevChallenges."
-        ],
-        "stacks": [
-            "Langages : JavaScript, HTML",
-            "Front-end : React",
-            "Styling : Sass (SCSS)"
-        ]
+  {
+    "id": "extensionslist",
+    "image": "/images/extensionslist.webp",
+    "imageDesktop": "/images/extensionslist-desktop.webp",
+    "imageMobile": "/images/extensionslist-mobile.webp",
+    "alt": "logo de Extensions List",
+    "altDesktop": "interface du site Extensions List sur un pc portable",
+    "altMobile": "interface du site Extensions List sur un smartphone",
+    "title": "Extensions List",
+    "git": "https://github.com/Flow2510/Browser-extension-manager/",
+    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
+    "description": "Le projet Browser Extension Manager est un défi Frontend Mentor visant à concevoir une interface web moderne permettant de gérer des extensions de navigateur.",
+    "objectifs": [
+      "Traduire fidèlement la maquette en HTML/CSS/React.",
+      "Assurer un design system cohérent et responsive.",
+      "Développer des composants interactifs.",
+      "Mettre en œuvre des animations CSS fluides."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React",
+      "apis": "",
+      "other": "Node.js, VSCode, Linter, Flexbox, CSS Grid"
     }
+  },
+  {
+    "id": "weatherapp",
+    "image": "/images/weatherapp.webp",
+    "imageDesktop": "/images/weatherapp-desktop.webp",
+    "imageMobile": "/images/weatherapp-mobile.webp",
+    "alt": "logo de Weather App",
+    "altDesktop": "interface du site Weather App sur un pc portable",
+    "altMobile": "interface du site Weather App sur un smartphone",
+    "title": "Weather App",
+    "git": "https://github.com/Flow2510/Weather-Now",
+    "page": "https://weathernowflow2510.netlify.app/",
+    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
+    "description": "Application météo interactive utilisant l’API Open-Meteo.",
+    "objectifs": [
+      "Intégrer et manipuler les données d'une API météorologique.",
+      "Gérer l'état de l'application.",
+      "Structurer les prévisions météo.",
+      "Concevoir une interface responsive."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, Axios",
+      "apis": "Open-Meteo API",
+      "other": "Fetch API, Promesses, Responsive Design"
+    }
+  },
+  {
+    "id": "kasa",
+    "image": "/images/Kasa.webp",
+    "imageDesktop": "/images/kasa-desktop.webp",
+    "imageMobile": "/images/kasa-mobile.webp",
+    "alt": "interface du site Kasa",
+    "title": "Kasa",
+    "git": "https://github.com/Flow2510/Kasa",
+    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
+    "description": "Refonte front-end complète d'une plateforme de location.",
+    "objectifs": [
+      "Traduire les maquettes Figma en composants React.",
+      "Mettre en place un routing performant.",
+      "Créer des composants réutilisables.",
+      "Simuler une API via JSON."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, React Router DOM",
+      "apis": "",
+      "other": "Node.js, Yarn, Responsive Design"
+    }
+  },
+  {
+    "id": "unsplashbox",
+    "image": "/images/unsplashbox.webp",
+    "imageDesktop": "/images/unsplashbox-desktop.webp",
+    "imageMobile": "/images/unsplashbox-mobile.webp",
+    "alt": "interface du site unsplashbox",
+    "title": "unsplashbox",
+    "git": "https://github.com/Flow2510/unsplashbox",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "description": "Application React affichant une collection d’images façon Unsplash.",
+    "objectifs": [
+      "Architecture de composants React.",
+      "Routing dynamique.",
+      "Stylisation avec SCSS.",
+      "Responsive Grid optimisée."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, React Router DOM, Sass",
+      "apis": "",
+      "other": "JSON local (simulation API), Responsive Grid"
+    }
+  },
+  {
+    "id": "argentbank",
+    "image": "/images/argentbank.webp",
+    "imageDesktop": "/images/argentbank-desktop.webp",
+    "imageMobile": "/images/argentbank-mobile.webp",
+    "alt": "interface du site ArgentBank",
+    "title": "ArgentBank",
+    "git": "https://github.com/Flow2510/ArgentBank",
+    "tags": ["REACT", "REDUX", "SCSS", "JavaScript", "HTML"],
+    "description": "Application bancaire front-end connectée à une API REST.",
+    "objectifs": [
+      "Mettre en place Redux.",
+      "Gérer l'authentification et les données utilisateur.",
+      "Créer les pages Login et Profil.",
+      "Assurer la persistance via JWT."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML",
+      "libraries": "React, Redux, React Router DOM, Sass",
+      "apis": "API REST interne",
+      "other": "JWT, Asynchrone, Archi modulaire"
+    }
+  },
+  {
+    "id": "Portfolio",
+    "image": "/images/portfolio.webp",
+    "imageDesktop": "/images/portfolio-desktop.webp",
+    "imageMobile": "/images/portfolio-mobile.webp",
+    "alt": "interface de mon portfolio",
+    "title": "Portfolio personnel",
+    "git": "https://github.com/Flow2510/portfolio2",
+    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
+    "description": "Site personnel présentant projets et compétences.",
+    "objectifs": [
+      "Créer un design moderne.",
+      "Mettre en place une SPA.",
+      "Développer des composants projets.",
+      "Optimiser le responsive."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML",
+      "libraries": "React, React Router DOM, Sass",
+      "apis": "",
+      "other": "Animations, SPA, Responsive"
+    }
+  },
+  {
+    "id": "sunnyside",
+    "image": "/images/sunnyside.webp",
+    "imageDesktop": "/images/sunnyside-desktop.webp",
+    "imageMobile": "/images/sunnyside-mobile.webp",
+    "alt": "interface du site Sunnyside",
+    "title": "Sunnyside Agency",
+    "git": "https://github.com/Flow2510/Sunnyside-agency-landing-page",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "description": "Landing page moderne reproduite à partir d’une maquette Frontend Mentor.",
+    "objectifs": [
+      "Intégration HTML/CSS pure.",
+      "Responsive via Flexbox et Grid.",
+      "Menu mobile en JavaScript.",
+      "Animations CSS."
+    ],
+    "stacks": {
+      "langages": "HTML, CSS, JavaScript",
+      "libraries": "",
+      "apis": "",
+      "other": "Flexbox, Grid, Responsive, Animations"
+    }
+  },
+  {
+    "id": "loopstudios",
+    "image": "/images/loopstudios.webp",
+    "imageDesktop": "/images/loopstudios-desktop.webp",
+    "imageMobile": "/images/loopstudios-mobile.webp",
+    "alt": "interface du site loopstudios",
+    "title": "Loopstudios",
+    "git": "https://github.com/Flow2510/loopstudio",
+    "page": "https://loopstudios2510.netlify.app/",
+    "tags": ["HTML", "SCSS", "JavaScript"],
+    "description": "Landing page immersive autour de la réalité virtuelle.",
+    "objectifs": [
+      "Superpositions de design immersif.",
+      "Gestion SCSS modulaire.",
+      "Grille responsive.",
+      "Menu mobile."
+    ],
+    "stacks": {
+      "langages": "HTML, JavaScript",
+      "libraries": "Sass",
+      "apis": "",
+      "other": "Responsive Design, Transitions"
+    }
+  },
+  {
+    "id": "REST Countries API",
+    "image": "/images/restcountries.webp",
+    "imageDesktop": "/images/restcountries-desktop.webp",
+    "imageMobile": "/images/restcountries-mobile.webp",
+    "alt": "interface du site Rest Countries",
+    "title": "REST Countries API",
+    "git": "https://github.com/Flow2510/REST-Countries",
+    "page": "https://restapicountriesflow2510.netlify.app/",
+    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
+    "description": "Application React consommant l’API REST Countries.",
+    "objectifs": [
+      "Consommation d'API.",
+      "Recherche et filtrage dynamique.",
+      "Dark Mode.",
+      "Navigation avec React Router."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, React Router DOM",
+      "apis": "REST Countries API",
+      "other": "Dark Mode, Responsive"
+    }
+  },
+  {
+    "id": "Product List",
+    "image": "/images/productcart.webp",
+    "imageDesktop": "/images/productcart-desktop.webp",
+    "imageMobile": "/images/productcart-mobile.webp",
+    "alt": "un dessert",
+    "title": "Product List",
+    "git": "https://github.com/Flow2510/Product-list",
+    "page": "https://productlist-flow2510.netlify.app/",
+    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
+    "description": "Liste de produits interactive avec panier dynamique.",
+    "objectifs": [
+      "Gérer l'état du panier.",
+      "Ajouter/supprimer des produits.",
+      "Mise à jour du total en temps réel.",
+      "Stylisation SCSS."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, Sass",
+      "apis": "",
+      "other": "React Hooks, Responsive"
+    }
+  },
+  {
+    "id": "alarado",
+    "image": "/images/alarado.webp",
+    "imageDesktop": "/images/alarado-desktop.webp",
+    "imageMobile": "/images/alarado-mobile.webp",
+    "alt": "interface du site Alarado",
+    "title": "Alarado",
+    "git": "https://github.com/Flow2510/alarado",
+    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
+    "description": "Landing page moderne avec thème clair/sombre.",
+    "objectifs": [
+      "Thème dynamique via SCSS + React.",
+      "Variables SCSS.",
+      "Composants modulaires.",
+      "Intégration responsive."
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML",
+      "libraries": "React, Sass",
+      "apis": "",
+      "other": "Dark Mode, Responsive, Mixins SCSS"
+    }
+  }
 ]
