@@ -30,11 +30,13 @@
         display: none;
         flex-direction: column;
         justify-content: flex-end;
+        align-items: flex-start;
         gap: 0.5rem;
         transition: all ease-in-out 0.7s;
-        transform: translateX(-100%);
+        transform: translateX(-105%);
         padding: 0.5rem;
         color: white;
+        text-align: left;
 
         @media screen and (min-width:768px) {
             display: flex;

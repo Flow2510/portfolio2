@@ -15,6 +15,24 @@ export default function Contact(){
                     className='contact__content-title'>
                         Contact
                 </motion.h2>
+                <motion.p
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.4 }}
+                    className='contact__content-text'
+                >
+                    Une question, une collaboration ou simplement envie d’échanger ?
+                </motion.p>
+                <motion.p
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.4 }}
+                    className='contact__content-text'
+                >
+                    N’hésitez pas à me laisser un message, je vous répondrai dès que possible.
+                </motion.p>
             </div>
             <Form />
         </section>

@@ -9,25 +9,25 @@ export default function Info(){
             "source": "/images/settings.svg",
             "iconAlt": "représentation d'un engrenage",
             "title": "Code Sémantique",
-            "text": "Un code propre et bien structuré, pensé pour être facile à lire, maintenir et faire évoluer."
+            "text": "Je produis un code propre, structuré et commenté. C'est l'assurance d'une lecture et d'une maintenance faciles pour toute l'équipe, et d'une évolution sereine du produit."
         },
         {
             "source": "/images/smartphone.svg",
             "iconAlt": "représentation d'un smartphone",
             "title": "Design Responsive",
-            "text": "Un site qui s’adapte parfaitement à tous les écrans, avec une approche mobile-first pour une expérience fluide."
+            "text": "J'adopte l'approche Mobile-First systématiquement. Le résultat : un site qui s'adapte parfaitement à tous les écrans et garantit une expérience utilisateur optimale quel que soit l'appareil."
         },
         {
             "source": "/images/users.svg",
             "iconAlt": "représentation d'une personne",
             "title": "Accessibilité et UX",
-            "text": "Des interfaces inclusives et intuitives, conçues pour que chaque utilisateur s’y retrouve facilement."
+            "text": "Je crée des interfaces inclusives et intuitives (UX). Je m'assure que le site soit navigable par tous les utilisateurs (y compris ceux utilisant des outils d'assistance), augmentant ainsi votre portée et votre conformité."
         },
         {
             "source": "/images/image.svg",
             "iconAlt": "représentation d'un dessin",
             "title": "Intégration",
-            "text": "De la maquette au code, je veille à respecter chaque détail visuel et interaction pour un rendu fidèle et professionnel."
+            "text": "Je garantis une intégration fidèle de la maquette au code ('Pixel Perfect'). Chaque détail visuel et interaction est respecté pour un rendu professionnel, sans surprise entre le design et le produit final."
         }
     ]
 

@@ -26,15 +26,25 @@ export default function Slider({title}) {
     };
 
     return (
-        <motion.section 
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.4 }}
-            className='slider'
-        >
-            <h2 className='slider__title'>{title}</h2>
-            <p className='slider__subtitle'>{otherProjects[currentIndex].id}</p>
+        <section className='slider'>
+            <motion.h2 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.4 }}
+                className='slider__title'
+            >
+                {title}
+            </motion.h2>
+            <motion.p 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.4 }}
+                className='slider__subtitle'
+            >   
+                {otherProjects[currentIndex].id}
+            </motion.p>
             <Link className='slider__link' to={`/${otherProjects[currentIndex].id}`}>
                 <motion.img
                     initial={{ opacity: 0, y: 50 }}
@@ -46,7 +56,13 @@ export default function Slider({title}) {
                     alt={otherProjects[currentIndex].altDesktop}
                 />
             </Link>
-            <div className='slider__dots-wrapper'>
+            <motion.div 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.4 }}
+                className='slider__dots-wrapper'
+            >
                 <button
                     aria-label="Previous slide"
                     onClick={prevHandleClick}
@@ -73,7 +89,7 @@ export default function Slider({title}) {
                 >
                     <i className="fa-solid fa-chevron-right"></i>
                 </button>
-            </div>
-        </motion.section>
+            </motion.div>
+        </section>
     );
 }

@@ -9,8 +9,8 @@
     "altMobile": "interface du site Extensions List sur un smartphone",
     "title": "Extensions List",
     "git": "https://github.com/Flow2510/Browser-extension-manager/",
-    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-    "description": "Le projet Browser Extension Manager est un défi Frontend Mentor visant à concevoir une interface web moderne permettant de gérer des extensions de navigateur.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "description": "Projet de site web conçu pour gérer et présenter des extensions de navigateur.\n\n L’objectif était de reproduire fidèlement le design fourni par Frontend Mentor, en mettant l’accent sur une interface claire, réactive et accessible. Le projet a permis de pratiquer la structuration HTML/CSS moderne, la gestion des composants interactifs et l’adaptation aux différents formats d’écran.",
     "objectifs": [
       "Traduire fidèlement la maquette en HTML/CSS/React.",
       "Assurer un design system cohérent et responsive.",
@@ -19,9 +19,9 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML, CSS",
-      "libraries": "React",
+      "libraries": "React, SASS",
       "apis": "",
-      "other": "Node.js, VSCode, Linter, Flexbox, CSS Grid"
+      "other": "Node.js, VSCode"
     }
   },
   {
@@ -35,8 +35,8 @@
     "title": "Weather App",
     "git": "https://github.com/Flow2510/Weather-Now",
     "page": "https://weathernowflow2510.netlify.app/",
-    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-    "description": "Application météo interactive utilisant l’API Open-Meteo.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "description": "Projet de site web météo réalisé à partir d’un challenge Frontend Mentor.\n\n L’application permet de consulter les prévisions météorologiques en temps réel avec une interface claire et responsive. Ce projet a permis de pratiquer la récupération de données via une API, la gestion de l’état de l’application et la création d’une interface moderne et intuitive adaptée aux différents appareils.",
     "objectifs": [
       "Intégrer et manipuler les données d'une API météorologique.",
       "Gérer l'état de l'application.",
@@ -45,9 +45,33 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, Axios",
+      "libraries": "React, SASS, Axios",
       "apis": "Open-Meteo API",
-      "other": "Fetch API, Promesses, Responsive Design"
+      "other": "Fetch API, VScode"
+    }
+  },
+  {
+    "id": "porvenir",
+    "image": "/images/porvenir.webp",
+    "imageDesktop": "/images/porvenir-desktop.webp",
+    "imageMobile": "/images/porvenir-mobile.webp",
+    "alt": "interface du site de l'auberge de Porvenir",
+    "altDesktop": "interface du site Porvenir sur un pc portable",
+    "altMobile": "interface du site Porvenir sur un smartphone",
+    "title": "Auberge del Porvenir",
+    "git": "https://github.com/Flow2510/porvenir",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "description": "Site web d’une auberge située dans la jungle de Santa Marta, conçu pour mettre en avant son cadre naturel et son ambiance accueillante.\n\n Le site intègre une navigation intuitive, des visuels immersifs et des informations pratiques pour les voyageurs. L’objectif était de créer une expérience digitale qui reflète la tranquillité et l’authenticité de l’auberge, tout en facilitant la réservation et la découverte des activités locales.",
+    "objectifs": [
+      "Navigation avec React Router.",
+      "Concevoir une interface responsive.",
+      "Traduction du site via I18n "
+    ],
+    "stacks": {
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, React Router DOM, SASS",
+      "apis": "",
+      "other": "Traduction I18n, VScode"
     }
   },
   {
@@ -58,8 +82,8 @@
     "alt": "interface du site Kasa",
     "title": "Kasa",
     "git": "https://github.com/Flow2510/Kasa",
-    "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-    "description": "Refonte front-end complète d'une plateforme de location.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "description": "Projet réalisé dans le cadre de la formation d’Intégrateur Web chez OpenClassrooms.\n\n L’objectif était de reproduire fidèlement le site Kasa en respectant la maquette fournie, tout en créant un site responsive et accessible. Ce projet a permis de consolider les compétences en HTML, CSS et JavaScript, notamment pour la gestion des composants interactifs et la navigation dynamique.",
     "objectifs": [
       "Traduire les maquettes Figma en composants React.",
       "Mettre en place un routing performant.",
@@ -68,9 +92,9 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, React Router DOM",
+      "libraries": "React, React Router DOM, SASS",
       "apis": "",
-      "other": "Node.js, Yarn, Responsive Design"
+      "other": "Node.js, VScode, JSON"
     }
   },
   {
@@ -82,7 +106,7 @@
     "title": "unsplashbox",
     "git": "https://github.com/Flow2510/unsplashbox",
     "tags": ["JavaScript", "HTML", "CSS"],
-    "description": "Application React affichant une collection d’images façon Unsplash.",
+    "description": "Projet Frontend Mentor visant à créer une galerie d’images inspirée d’Unsplash.\n\n L’application met en avant une interface moderne et responsive, avec une navigation fluide et une présentation optimisée des images. Ce projet a permis de renforcer les compétences en HTML, CSS et JavaScript, ainsi que la gestion de composants interactifs et de mises en page adaptatives pour différents écrans.",
     "objectifs": [
       "Architecture de composants React.",
       "Routing dynamique.",
@@ -91,9 +115,9 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, React Router DOM, Sass",
-      "apis": "",
-      "other": "JSON local (simulation API), Responsive Grid"
+      "libraries": "React, React Router DOM, SASS",
+      "apis": "Unsplash API",
+      "other": "Node.js, VSCode"
     }
   },
   {
@@ -104,8 +128,8 @@
     "alt": "interface du site ArgentBank",
     "title": "ArgentBank",
     "git": "https://github.com/Flow2510/ArgentBank",
-    "tags": ["REACT", "REDUX", "SCSS", "JavaScript", "HTML"],
-    "description": "Application bancaire front-end connectée à une API REST.",
+    "tags": [ "JavaScript", "HTML", "CSS"],
+    "description": "Projet réalisé dans le cadre de la formation d’Intégrateur Web chez OpenClassrooms.\n\n L’objectif était de reproduire fidèlement le site de la banque en ligne ArgentBank à partir de la maquette fournie, en créant un site responsive et accessible. Ce projet a permis de renforcer les compétences en HTML, CSS et JavaScript, notamment pour la gestion des composants interactifs, des formulaires sécurisés et de la navigation sur différents appareils.",
     "objectifs": [
       "Mettre en place Redux.",
       "Gérer l'authentification et les données utilisateur.",
@@ -113,10 +137,10 @@
       "Assurer la persistance via JWT."
     ],
     "stacks": {
-      "langages": "JavaScript, HTML",
-      "libraries": "React, Redux, React Router DOM, Sass",
+      "langages": "JavaScript, HTML, CSS",
+      "libraries": "React, Redux, React Router DOM, SASS",
       "apis": "API REST interne",
-      "other": "JWT, Asynchrone, Archi modulaire"
+      "other": "JWT, Asynchrone, node.js, Vscode"
     }
   },
   {
@@ -127,8 +151,8 @@
     "alt": "interface de mon portfolio",
     "title": "Portfolio personnel",
     "git": "https://github.com/Flow2510/portfolio2",
-    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-    "description": "Site personnel présentant projets et compétences.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "description": "Ce portfolio présente mes projets réalisés dans le cadre de ma formation d’Intégrateur Web, challenges Frontend Mentor ainsi que mes projets personnels réalisés pour des clients ou d’autres personnes. \n\nIl met en avant mes compétences en HTML, CSS et JavaScript, ainsi que ma capacité à créer des interfaces modernes, responsives et interactives.",
     "objectifs": [
       "Créer un design moderne.",
       "Mettre en place une SPA.",
@@ -136,10 +160,10 @@
       "Optimiser le responsive."
     ],
     "stacks": {
-      "langages": "JavaScript, HTML",
+      "langages": "JavaScript, HTML, CSS",
       "libraries": "React, React Router DOM, Sass",
-      "apis": "",
-      "other": "Animations, SPA, Responsive"
+      "apis": "Web3Forms API",
+      "other": "Formulaire, node.js, JSON, VScode"
     }
   },
   {
@@ -151,7 +175,7 @@
     "title": "Sunnyside Agency",
     "git": "https://github.com/Flow2510/Sunnyside-agency-landing-page",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "description": "Landing page moderne reproduite à partir d’une maquette Frontend Mentor.",
+    "description": "Projet Frontend Mentor visant à créer le site d’une agence créative avec une mise en page moderne et responsive.\n\n L’objectif était de reproduire fidèlement la maquette fournie, en mettant l’accent sur l’ergonomie, les animations légères et l’expérience utilisateur. Ce projet a permis de consolider les compétences en HTML, CSS et JavaScript, ainsi que la création d’une interface visuellement attractive et adaptée à tous les appareils.",
     "objectifs": [
       "Intégration HTML/CSS pure.",
       "Responsive via Flexbox et Grid.",
@@ -175,7 +199,7 @@
     "git": "https://github.com/Flow2510/REST-Countries",
     "page": "https://restapicountriesflow2510.netlify.app/",
     "tags": ["REACT", "JavaScript", "CSS", "HTML"],
-    "description": "Application React consommant l’API REST Countries.",
+    "description": "Projet Frontend Mentor visant à créer une application permettant de consulter des informations sur tous les pays du monde via l’API REST Countries.\n\n L’application propose une interface claire et responsive, avec des fonctionnalités de recherche, de filtrage et d’affichage détaillé des pays. Ce projet a permis de pratiquer la récupération et la manipulation de données via une API, ainsi que la création d’une interface moderne et adaptative pour différents appareils.",
     "objectifs": [
       "Consommation d'API.",
       "Recherche et filtrage dynamique.",
@@ -184,9 +208,9 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, React Router DOM",
+      "libraries": "React, React Router DOM, SASS",
       "apis": "REST Countries API",
-      "other": "Dark Mode, Responsive"
+      "other": "Dark Mode, node.js, VScode"
     }
   },
   {
@@ -198,8 +222,8 @@
     "title": "Product List",
     "git": "https://github.com/Flow2510/Product-list",
     "page": "https://productlist-flow2510.netlify.app/",
-    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-    "description": "Liste de produits interactive avec panier dynamique.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "description": "Projet Frontend Mentor consistant à créer une page de catalogue de produits avec une interface claire et responsive.\n\n L’objectif était de reproduire fidèlement la maquette fournie tout en mettant en place des fonctionnalités interactives simples, comme la sélection ou le filtrage des produits. Ce projet a permis de renforcer les compétences en HTML, CSS et JavaScript, ainsi que la mise en page adaptative pour différents appareils.",
     "objectifs": [
       "Gérer l'état du panier.",
       "Ajouter/supprimer des produits.",
@@ -210,7 +234,7 @@
       "langages": "JavaScript, HTML, CSS",
       "libraries": "React, Sass",
       "apis": "",
-      "other": "React Hooks, Responsive"
+      "other": "Node.js, JSON, VSCode"
     }
   },
   {
@@ -221,8 +245,8 @@
     "alt": "interface du site Alarado",
     "title": "Alarado",
     "git": "https://github.com/Flow2510/alarado",
-    "tags": ["REACT", "SCSS", "JavaScript", "HTML", "CSS"],
-    "description": "Landing page moderne avec thème clair/sombre.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "description": "Landing page réalisée dans le cadre d’un challenge DevChallenges.\n\n Ce projet m’a permis de travailler sur la création d’une interface simple, moderne et responsive avec un thème clair/sombre.",
     "objectifs": [
       "Thème dynamique via SCSS + React.",
       "Variables SCSS.",
@@ -231,7 +255,7 @@
     ],
     "stacks": {
       "langages": "JavaScript, HTML",
-      "libraries": "React, Sass",
+      "libraries": "React, SASS",
       "apis": "",
       "other": "Dark Mode, Responsive, Mixins SCSS"
     }

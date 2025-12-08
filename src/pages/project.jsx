@@ -82,24 +82,86 @@ export default function Project() {
                             </ul>
                         </div>
                         <div className='project__stacks'>
-                            <h3 className="project__stacks-title">Technologies :</h3>
+                            <motion.h3
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, ease: "easeOut" }}
+                                viewport={{ once: true, amount: 0.4 }}  
+                                className="project__stacks-title"
+                            >   
+                                Technologies :
+                            </motion.h3>
                             <div className="project__stacks-wrapper">
-                                <p><b>Languages : </b></p>
-                                <p>{project.stacks.langages}</p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    <b>Languages : </b>
+                                </motion.p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    {project.stacks.langages}
+                                </motion.p>
                             </div>
                             <div className="project__stacks-wrapper">
-                                <p><b>Librairies : </b></p>
-                                <p>{project.stacks.libraries}</p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    <b>Librairies : </b>
+                                </motion.p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    {project.stacks.libraries}
+                                </motion.p>
                             </div>
                             {project.stacks.apis &&
                                 <div className="project__stacks-wrapper">
-                                    <p><b>API : </b></p>
-                                    <p>{project.stacks.apis}</p>
+                                    <motion.p
+                                        initial={{ opacity: 0, y: 50 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, ease: "easeOut" }}
+                                        viewport={{ once: true, amount: 0.4 }}  
+                                    >
+                                        <b>API : </b>
+                                    </motion.p>
+                                    <motion.p
+                                        initial={{ opacity: 0, y: 50 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, ease: "easeOut" }}
+                                        viewport={{ once: true, amount: 0.4 }}  
+                                    >{project.stacks.apis}</motion.p>
                                 </div>
                             }
                             <div className="project__stacks-wrapper">
-                                <p><b>Autres : </b></p>
-                                <p>{project.stacks.other}</p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    <b>Autres : </b>
+                                </motion.p>
+                                <motion.p
+                                    initial={{ opacity: 0, y: 50 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    viewport={{ once: true, amount: 0.4 }}  
+                                >
+                                    {project.stacks.other}
+                                </motion.p>
                             </div>
                         </div>
                         <motion.div 
@@ -117,7 +179,7 @@ export default function Project() {
                     </div>
                 </div>
                 <CallToAction
-                    to="contact"
+                    to="/contact"
                     title="Discutons d’une opportunité"
                     buttonText="Me Contacter"
                 />

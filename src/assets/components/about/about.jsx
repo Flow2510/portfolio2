@@ -12,7 +12,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-title">
-                        Développeur Web Junior
+                        Développeur Front-end Junior
                 </motion.h2>
                 <motion.img 
                     initial={{ opacity: 0, y: 50 }}
@@ -27,7 +27,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-text">
-                        Bonjour, moi c’est Florian,
+                        Passionné par l'art de donner vie au design, je transforme les maquettes en expériences web modernes, fluides et accessibles.
                 </motion.p>
                 <motion.p 
                     initial={{ opacity: 0, y: 50 }}
@@ -35,8 +35,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-text">
-                        Je suis développeur front-end passionné par la création d’interfaces modernes, claires et réactives.
-                        J’aime transformer des maquettes en expériences web fluides, accessibles et bien structurées, grâce à HTML, SASS et React. 
+                        Spécialisé en HTML, SASS et React, je mets un point d'honneur à livrer des interfaces utilisateur (UI) bien structurées et parfaitement réactives.
                 </motion.p>
                 <motion.p 
                     initial={{ opacity: 0, y: 50 }}
@@ -44,7 +43,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-text">
-                        Curieux de nature, j’explore progressivement le back-end JavaScript pour devenir plus polyvalent et comprendre l’ensemble de la chaîne de développement.
+                        Animé par l’envie de progresser en continu, je me forme également au back-end JavaScript (Node.js) afin de comprendre l’ensemble du cycle de développement et devenir un développeur plus complet.
                 </motion.p>
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
@@ -52,7 +51,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-text">
-                        Mon objectif aujourd’hui : rejoindre une équipe où je pourrai contribuer, apprendre et grandir en construisant des produits utiles et bien conçus.
+                        Mon objectif : Contribuer au succès d'une équipe dynamique, apprendre des meilleurs et construire ensemble des produits numériques utiles et bien conçus.
                 </motion.p>
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
@@ -60,7 +59,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-text">
-                        <i className="fa-solid fa-location-dot"></i>Basé dans les Pyrénées-Orientales, mais ouvert à toutes les opportunités (présentiel, hybride ou à distance).
+                        <i className="fa-solid fa-location-dot"></i>Basé à Perpignan / dans les Pyrénées-Orientales. Ouvert aux opportunités en présentiel, hybride et full remote (télétravail).
                 </motion.p>
             </div>
         </section>

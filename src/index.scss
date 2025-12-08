@@ -7,7 +7,7 @@ html{
   font-family: "oswald", sans-serif;
 
     @media screen and (min-width:1200px) {
-      font-size: 20px;
+      font-size: 18px;
     }
 }
 
@@ -28,4 +28,8 @@ body{
 
 main{
   flex: 1;
+
+  @media screen and (min-width:768px) {
+    margin-left: 250px;
+  }
 }
