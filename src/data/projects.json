@@ -166,30 +166,6 @@
     }
   },
   {
-    "id": "loopstudios",
-    "image": "/images/loopstudios.webp",
-    "imageDesktop": "/images/loopstudios-desktop.webp",
-    "imageMobile": "/images/loopstudios-mobile.webp",
-    "alt": "interface du site loopstudios",
-    "title": "Loopstudios",
-    "git": "https://github.com/Flow2510/loopstudio",
-    "page": "https://loopstudios2510.netlify.app/",
-    "tags": ["HTML", "SCSS", "JavaScript"],
-    "description": "Landing page immersive autour de la réalité virtuelle.",
-    "objectifs": [
-      "Superpositions de design immersif.",
-      "Gestion SCSS modulaire.",
-      "Grille responsive.",
-      "Menu mobile."
-    ],
-    "stacks": {
-      "langages": "HTML, JavaScript",
-      "libraries": "Sass",
-      "apis": "",
-      "other": "Responsive Design, Transitions"
-    }
-  },
-  {
     "id": "REST Countries API",
     "image": "/images/restcountries.webp",
     "imageDesktop": "/images/restcountries-desktop.webp",
