@@ -34,7 +34,7 @@ export default function Project() {
                             viewport={{ once: true, amount: 0.4 }}
                             className="project__image-desktop" 
                             src={project.imageDesktop} 
-                            alt={project.alt} 
+                            alt={project.altDesktop} 
                         />
                         <motion.img
                             initial={{ opacity: 0, y: 50 }}
@@ -43,7 +43,7 @@ export default function Project() {
                             viewport={{ once: true, amount: 0.4 }}
                             className="project__image-mobile" 
                             src={project.imageMobile} 
-                            alt={project.alt} 
+                            alt={project.altMobile} 
                         />
                     </div>
                     <div className='project__content'>
