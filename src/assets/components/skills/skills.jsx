@@ -1,8 +1,34 @@
+/* eslint-disable no-unused-vars */
 import { motion } from 'motion/react'
 import SkillBar from '../skillbar/skillbar'
 import './skills.scss'
+import Techno from '../techno/techno'
 
 export default function Skills() {
+    const usedTechnologies = {
+        front: [
+            "HTML / CSS",
+            "JavaScript",
+            "React",
+            "Sass",
+            "Tailwind CSS",
+            "Zustand",
+            "Motion"
+        ],
+        back: [
+            "Node.js",
+            "Express.js",
+            "API REST",
+            "Supabase",
+        ],
+        others: [
+            "Git",
+            "GitHub",
+            "Figma",
+            "Responsive design",
+        ],
+    }
+
     return(
         <section className='skills'>
             <motion.h3
@@ -40,6 +66,9 @@ export default function Skills() {
                     score="50"
                 />
             </div>
+            <Techno 
+                usedTechnologies={usedTechnologies}
+            />
         </section>
     )
 }

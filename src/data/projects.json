@@ -100,54 +100,6 @@
     }
   },
   {
-    "id": "unsplashbox",
-    "image": "/images/unsplashbox.webp",
-    "imageDesktop": "/images/unsplashbox-desktop.webp",
-    "imageMobile": "/images/unsplashbox-mobile.webp",
-    "alt": "interface du site Unsplashbox",
-    "altDesktop": "interface du site Extensions UnsplashBox sur un pc portable",
-    "altMobile": "interface du site Extensions UnsplashBox sur un smartphone",
-    "title": "UnsplashBox",
-    "git": "https://github.com/Flow2510/unsplashbox",
-    "tags": ["JavaScript", "HTML", "CSS"],
-    "description": "Projet Frontend Mentor visant à créer une galerie d’images inspirée d’Unsplash.\n\n L’application met en avant une interface moderne et responsive, avec une navigation fluide et une présentation optimisée des images. Ce projet a permis de renforcer les compétences en HTML, CSS et JavaScript, ainsi que la gestion de composants interactifs et de mises en page adaptatives pour différents écrans.",
-    "objectifs": [
-      "Architecture de composants React.",
-      "Routing dynamique.",
-      "Stylisation avec SCSS.",
-      "Responsive Grid optimisée."
-    ],
-    "stacks": {
-      "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, React Router DOM, SASS",
-      "apis": "Unsplash API",
-      "other": "Node.js, VSCode"
-    }
-  },
-  {
-    "id": "argentbank",
-    "image": "/images/argentbank.webp",
-    "imageDesktop": "/images/argentbank-desktop.webp",
-    "imageMobile": "/images/argentbank-mobile.webp",
-    "alt": "interface du site ArgentBank",
-    "title": "ArgentBank",
-    "git": "https://github.com/Flow2510/ArgentBank",
-    "tags": [ "JavaScript", "HTML", "CSS"],
-    "description": "Projet réalisé dans le cadre de la formation d’Intégrateur Web chez OpenClassrooms.\n\n L’objectif était de reproduire fidèlement le site de la banque en ligne ArgentBank à partir de la maquette fournie, en créant un site responsive et accessible. Ce projet a permis de renforcer les compétences en HTML, CSS et JavaScript, notamment pour la gestion des composants interactifs, des formulaires sécurisés et de la navigation sur différents appareils.",
-    "objectifs": [
-      "Mettre en place Redux.",
-      "Gérer l'authentification et les données utilisateur.",
-      "Créer les pages Login et Profil.",
-      "Assurer la persistance via JWT."
-    ],
-    "stacks": {
-      "langages": "JavaScript, HTML, CSS",
-      "libraries": "React, Redux, React Router DOM, SASS",
-      "apis": "API REST interne",
-      "other": "JWT, Asynchrone, node.js, Vscode"
-    }
-  },
-  {
     "id": "Portfolio",
     "image": "/images/portfolio.webp",
     "imageDesktop": "/images/portfolio-desktop.webp",
@@ -248,7 +200,7 @@
     "imageMobile": "/images/vallespok-mobile.webp",
     "alt": "interface du site Valles'Pok",
     "title": "Valles'Pok",
-    "git": "https://github.com/Flow2510/alarado",
+    "git": "https://github.com/Flow2510/vallespok",
     "tags": ["JavaScript", "HTML", "CSS"],
     "description": "Site web d’une association de poker située à Céret, conçu pour mettre en valeur son esprit convivial et sa passion pour le poker amateur. Le site propose une navigation simple et moderne, permettant aux visiteurs de découvrir facilement l’association, son fonctionnement et son calendrier d’événements. Des visuels immersifs, des informations pratiques et une présentation claire des tournois et soirées de jeu offrent une expérience cohérente et accueillante.",
     "objectifs": [

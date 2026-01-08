@@ -12,7 +12,7 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.4 }}
                     className="about__content-title">
-                        Développeur Front-end Junior REACT
+                        Développeur Full Stack Junior REACT
                 </motion.h2>
                 <motion.img 
                     initial={{ opacity: 0, y: 50 }}

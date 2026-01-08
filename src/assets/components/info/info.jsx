@@ -27,7 +27,7 @@ export default function Info(){
             "source": "/images/image.svg",
             "iconAlt": "représentation d'un dessin",
             "title": "Intégration",
-            "text": "Je garantis une intégration fidèle de la maquette au code ('Pixel Perfect'). Chaque détail visuel et interaction est respecté pour un rendu professionnel, sans surprise entre le design et le produit final."
+            "text": "Je garantis une intégration fidèle de la maquette au code. Chaque détail visuel et interaction est respecté pour un rendu professionnel, sans surprise entre le design et le produit final."
         }
     ]
 

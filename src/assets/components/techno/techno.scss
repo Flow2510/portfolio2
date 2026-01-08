@@ -1,0 +1,23 @@
+.techno{
+    padding-top: 1rem;
+
+    &__wrapper{
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    &__column{
+        
+        &-title{
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__list{
+        list-style-type: none;
+        padding: 0;
+    }
+    
+}
